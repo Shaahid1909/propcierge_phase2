@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1803A03126498DA200C23899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A03026498DA200C23899 /* AppDelegate.swift */; };
+		1803A03326498DA200C23899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A03226498DA200C23899 /* SceneDelegate.swift */; };
+		1803A03526498DA300C23899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A03426498DA300C23899 /* ViewController.swift */; };
+		1803A03826498DA400C23899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1803A03626498DA400C23899 /* Main.storyboard */; };
+		1803A03A26498DE700C23899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1803A03926498DE700C23899 /* Assets.xcassets */; };
+		1803A03D26498DE700C23899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1803A03B26498DE700C23899 /* LaunchScreen.storyboard */; };
+		1803A04826498DE900C23899 /* propciergeRealityServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A04726498DE900C23899 /* propciergeRealityServicesTests.swift */; };
+		1803A05326498DEA00C23899 /* propciergeRealityServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A05226498DEA00C23899 /* propciergeRealityServicesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1803A04426498DE900C23899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1803A02526498D9E00C23899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1803A02C26498DA000C23899;
+			remoteInfo = propciergeRealityServices;
+		};
+		1803A04F26498DEA00C23899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1803A02526498D9E00C23899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1803A02C26498DA000C23899;
+			remoteInfo = propciergeRealityServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1803A02D26498DA000C23899 /* propciergeRealityServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = propciergeRealityServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1803A03026498DA200C23899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1803A03226498DA200C23899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1803A03426498DA300C23899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1803A03726498DA400C23899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1803A03926498DE700C23899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1803A03C26498DE700C23899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1803A03E26498DE700C23899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1803A04326498DE900C23899 /* propciergeRealityServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = propciergeRealityServicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1803A04726498DE900C23899 /* propciergeRealityServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propciergeRealityServicesTests.swift; sourceTree = "<group>"; };
+		1803A04926498DEA00C23899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1803A04E26498DEA00C23899 /* propciergeRealityServicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = propciergeRealityServicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1803A05226498DEA00C23899 /* propciergeRealityServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propciergeRealityServicesUITests.swift; sourceTree = "<group>"; };
+		1803A05426498DEA00C23899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1803A02A26498DA000C23899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1803A04026498DE900C23899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1803A04B26498DEA00C23899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1803A02426498D9E00C23899 = {
+			isa = PBXGroup;
+			children = (
+				1803A02F26498DA000C23899 /* propciergeRealityServices */,
+				1803A04626498DE900C23899 /* propciergeRealityServicesTests */,
+				1803A05126498DEA00C23899 /* propciergeRealityServicesUITests */,
+				1803A02E26498DA000C23899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1803A02E26498DA000C23899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1803A02D26498DA000C23899 /* propciergeRealityServices.app */,
+				1803A04326498DE900C23899 /* propciergeRealityServicesTests.xctest */,
+				1803A04E26498DEA00C23899 /* propciergeRealityServicesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1803A02F26498DA000C23899 /* propciergeRealityServices */ = {
+			isa = PBXGroup;
+			children = (
+				1803A03026498DA200C23899 /* AppDelegate.swift */,
+				1803A03226498DA200C23899 /* SceneDelegate.swift */,
+				1803A03426498DA300C23899 /* ViewController.swift */,
+				1803A03626498DA400C23899 /* Main.storyboard */,
+				1803A03926498DE700C23899 /* Assets.xcassets */,
+				1803A03B26498DE700C23899 /* LaunchScreen.storyboard */,
+				1803A03E26498DE700C23899 /* Info.plist */,
+			);
+			path = propciergeRealityServices;
+			sourceTree = "<group>";
+		};
+		1803A04626498DE900C23899 /* propciergeRealityServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1803A04726498DE900C23899 /* propciergeRealityServicesTests.swift */,
+				1803A04926498DEA00C23899 /* Info.plist */,
+			);
+			path = propciergeRealityServicesTests;
+			sourceTree = "<group>";
+		};
+		1803A05126498DEA00C23899 /* propciergeRealityServicesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1803A05226498DEA00C23899 /* propciergeRealityServicesUITests.swift */,
+				1803A05426498DEA00C23899 /* Info.plist */,
+			);
+			path = propciergeRealityServicesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1803A02C26498DA000C23899 /* propciergeRealityServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1803A05726498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServices" */;
+			buildPhases = (
+				1803A02926498DA000C23899 /* Sources */,
+				1803A02A26498DA000C23899 /* Frameworks */,
+				1803A02B26498DA000C23899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = propciergeRealityServices;
+			productName = propciergeRealityServices;
+			productReference = 1803A02D26498DA000C23899 /* propciergeRealityServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1803A04226498DE900C23899 /* propciergeRealityServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1803A05A26498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServicesTests" */;
+			buildPhases = (
+				1803A03F26498DE900C23899 /* Sources */,
+				1803A04026498DE900C23899 /* Frameworks */,
+				1803A04126498DE900C23899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1803A04526498DE900C23899 /* PBXTargetDependency */,
+			);
+			name = propciergeRealityServicesTests;
+			productName = propciergeRealityServicesTests;
+			productReference = 1803A04326498DE900C23899 /* propciergeRealityServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1803A04D26498DEA00C23899 /* propciergeRealityServicesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1803A05D26498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServicesUITests" */;
+			buildPhases = (
+				1803A04A26498DEA00C23899 /* Sources */,
+				1803A04B26498DEA00C23899 /* Frameworks */,
+				1803A04C26498DEA00C23899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1803A05026498DEA00C23899 /* PBXTargetDependency */,
+			);
+			name = propciergeRealityServicesUITests;
+			productName = propciergeRealityServicesUITests;
+			productReference = 1803A04E26498DEA00C23899 /* propciergeRealityServicesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1803A02526498D9E00C23899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1803A02C26498DA000C23899 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1803A04226498DE900C23899 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1803A02C26498DA000C23899;
+					};
+					1803A04D26498DEA00C23899 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1803A02C26498DA000C23899;
+					};
+				};
+			};
+			buildConfigurationList = 1803A02826498D9E00C23899 /* Build configuration list for PBXProject "propciergeRealityServices" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1803A02426498D9E00C23899;
+			productRefGroup = 1803A02E26498DA000C23899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1803A02C26498DA000C23899 /* propciergeRealityServices */,
+				1803A04226498DE900C23899 /* propciergeRealityServicesTests */,
+				1803A04D26498DEA00C23899 /* propciergeRealityServicesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1803A02B26498DA000C23899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1803A03D26498DE700C23899 /* LaunchScreen.storyboard in Resources */,
+				1803A03A26498DE700C23899 /* Assets.xcassets in Resources */,
+				1803A03826498DA400C23899 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1803A04126498DE900C23899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1803A04C26498DEA00C23899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1803A02926498DA000C23899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1803A03526498DA300C23899 /* ViewController.swift in Sources */,
+				1803A03126498DA200C23899 /* AppDelegate.swift in Sources */,
+				1803A03326498DA200C23899 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1803A03F26498DE900C23899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1803A04826498DE900C23899 /* propciergeRealityServicesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1803A04A26498DEA00C23899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1803A05326498DEA00C23899 /* propciergeRealityServicesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1803A04526498DE900C23899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1803A02C26498DA000C23899 /* propciergeRealityServices */;
+			targetProxy = 1803A04426498DE900C23899 /* PBXContainerItemProxy */;
+		};
+		1803A05026498DEA00C23899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1803A02C26498DA000C23899 /* propciergeRealityServices */;
+			targetProxy = 1803A04F26498DEA00C23899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1803A03626498DA400C23899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1803A03726498DA400C23899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1803A03B26498DE700C23899 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1803A03C26498DE700C23899 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1803A05526498DEA00C23899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1803A05626498DEA00C23899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1803A05826498DEA00C23899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = propciergeRealityServices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macapp.propciergeRealityServices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1803A05926498DEA00C23899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = propciergeRealityServices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macapp.propciergeRealityServices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1803A05B26498DEA00C23899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = propciergeRealityServicesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macapp.propciergeRealityServicesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/propciergeRealityServices.app/propciergeRealityServices";
+			};
+			name = Debug;
+		};
+		1803A05C26498DEA00C23899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = propciergeRealityServicesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macapp.propciergeRealityServicesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/propciergeRealityServices.app/propciergeRealityServices";
+			};
+			name = Release;
+		};
+		1803A05E26498DEA00C23899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = propciergeRealityServicesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macapp.propciergeRealityServicesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = propciergeRealityServices;
+			};
+			name = Debug;
+		};
+		1803A05F26498DEA00C23899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = propciergeRealityServicesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macapp.propciergeRealityServicesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = propciergeRealityServices;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1803A02826498D9E00C23899 /* Build configuration list for PBXProject "propciergeRealityServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803A05526498DEA00C23899 /* Debug */,
+				1803A05626498DEA00C23899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1803A05726498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803A05826498DEA00C23899 /* Debug */,
+				1803A05926498DEA00C23899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1803A05A26498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803A05B26498DEA00C23899 /* Debug */,
+				1803A05C26498DEA00C23899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1803A05D26498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServicesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803A05E26498DEA00C23899 /* Debug */,
+				1803A05F26498DEA00C23899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1803A02526498D9E00C23899 /* Project object */;
+}
