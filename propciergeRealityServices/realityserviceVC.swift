@@ -1010,7 +1010,9 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
         let popularPicksCell = collectionView.dequeueReusableCell(withReuseIdentifier: "PropertyCollectionCell", for: indexPath) as! PropertyCollectionCell
         popularPicksCell.nameLabel.text =  realityservice[indexPath.row].name
         popularPicksCell.priceLabel.text = realityservice[indexPath.row].price
-        popularPicksCell.smallDescriptionLabel.text = realityservice[indexPath.row].city
+        popularPicksCell.smallDescriptionLabel.text = "\(realityservice[indexPath.row].city)|"
+        popularPicksCell.bhkcount.text = "\(realityservice[indexPath.row].bhkcount)BHK|"
+        popularPicksCell.sqftcount.text = "\(realityservice[indexPath.row].sqftsize) sq.ft"
      //   popularPicksCell.typeSpecificationLabel.text = "asdasd"      ///realityservice[indexPath.row].type
      //   popularPicksCell.banner.image = UIImage(named: "\(realityservice[indexPath.row].images)")
         
@@ -1925,6 +1927,7 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
                             let flatType = i["type"] as! String
                             let sqft = i["sq_ft"] as! String
                             let furnishtype = i["furnising_type"] as! String
+                            let bhk_count = i["bhk_count"] as! String
                           let city = i["city"] as! String
        // var imageresult: String!
                             
@@ -1933,7 +1936,7 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
                                 let img = j["url"] as! String
                                            
                    
-                    self.realityservice.append(Property(name: title , price: amount, images: img, type: reality_type, flatType: flatType, city: city, sqftsize: sqft, finishType: furnishtype))
+                                self.realityservice.append(Property(name: title , price: amount, images: img, type: reality_type, flatType: flatType, city: city, bhkcount: bhk_count,sqftsize: sqft, finishType: furnishtype))
                                 
                                 print("The reality service is\(self.realityservice)")
                                      
@@ -1968,6 +1971,7 @@ struct Property {
   let type:String// 1. For Rent || 2. For Sale
   let flatType:String //1. 1BHK || 2. 2BHK || 3. 3BHK
   let city:String
+    let bhkcount: String
   let sqftsize:String //Size in sq.ft
 //  var isWishlisted:Bool = false
   let finishType:String

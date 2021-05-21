@@ -2,9 +2,9 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -21,10 +21,10 @@
                         <rect key="frame" x="10" y="5" width="404" height="82"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gJx-Qv-YYZ">
-                                <rect key="frame" x="0.0" y="0.0" width="127" height="29"/>
+                                <rect key="frame" x="0.0" y="0.0" width="127" height="25"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPU-L9-5DV">
-                                        <rect key="frame" x="0.0" y="0.0" width="127" height="29"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="127" id="OdC-DB-lOI"/>
                                         </constraints>
@@ -41,35 +41,25 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="lGY-bF-QfU">
-                                <rect key="frame" x="0.0" y="44" width="376" height="38"/>
+                                <rect key="frame" x="0.0" y="40" width="376" height="42"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8n-pz-CoA">
-                                        <rect key="frame" x="0.0" y="0.0" width="185" height="38"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Min Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P9q-C9-ibk">
+                                        <rect key="frame" x="0.0" y="0.0" width="185" height="42"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="185" id="Obl-j9-oFl"/>
+                                            <constraint firstAttribute="width" constant="185" id="4gp-vq-tE7"/>
+                                            <constraint firstAttribute="height" constant="42" id="kPt-TJ-QfP"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="tintColor" systemColor="labelColor"/>
-                                        <inset key="titleEdgeInsets" minX="-115" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <inset key="imageEdgeInsets" minX="160" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Min Amount" image="down_arrow">
-                                            <color key="titleColor" red="0.67071039990000003" green="0.67071039990000003" blue="0.67071039990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MU2-gh-emq">
-                                        <rect key="frame" x="191" y="0.0" width="185" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Max Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WTg-5b-tYN">
+                                        <rect key="frame" x="191" y="0.0" width="185" height="42"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="185" id="7ND-Yh-Nwt"/>
-                                            <constraint firstAttribute="height" constant="38" id="E1e-6U-yqD"/>
+                                            <constraint firstAttribute="width" constant="185" id="zdT-Be-OQx"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="tintColor" systemColor="labelColor"/>
-                                        <inset key="titleEdgeInsets" minX="-115" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <inset key="imageEdgeInsets" minX="160" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Max Amount" image="down_arrow">
-                                            <color key="titleColor" red="0.67071039990000003" green="0.67071039990000003" blue="0.67071039990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -84,16 +74,10 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="1B0-0R-Niz"/>
             <connections>
-                <outlet property="maxpricerange" destination="MU2-gh-emq" id="yO4-1N-ME9"/>
-                <outlet property="minpricerange" destination="k8n-pz-CoA" id="XJJ-hK-UY2"/>
+                <outlet property="maxpricerange" destination="WTg-5b-tYN" id="ht4-RH-U35"/>
+                <outlet property="minpricerange" destination="P9q-C9-ibk" id="tvv-F3-6MS"/>
             </connections>
             <point key="canvasLocation" x="57.971014492753625" y="73.660714285714278"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="down_arrow" width="20" height="20"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

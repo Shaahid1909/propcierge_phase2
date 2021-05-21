@@ -2,9 +2,9 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="t0c-Ex-fwr">
-                        <rect key="frame" x="10" y="4" width="404" height="84"/>
+                        <rect key="frame" x="10" y="4" width="404" height="88"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ijz-xR-bY6">
                                 <rect key="frame" x="0.0" y="0.0" width="168.5" height="31"/>
@@ -42,36 +42,26 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="2xq-4L-izY">
-                                <rect key="frame" x="0.0" y="46" width="376" height="38"/>
+                                <rect key="frame" x="0.0" y="46" width="376" height="42"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efL-0c-f15">
-                                        <rect key="frame" x="0.0" y="0.0" width="185" height="38"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="amK-QZ-Mbd">
+                                        <rect key="frame" x="0.0" y="0.0" width="185" height="42"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="185" id="SY7-w4-Azb"/>
-                                            <constraint firstAttribute="height" constant="38" id="wa7-I6-kBp"/>
+                                            <constraint firstAttribute="width" constant="185" id="Hqh-Tc-Gj8"/>
+                                            <constraint firstAttribute="height" constant="42" id="hzF-RJ-eKU"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="tintColor" systemColor="labelColor"/>
-                                        <inset key="titleEdgeInsets" minX="-115" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <inset key="imageEdgeInsets" minX="160" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="0" image="down_arrow">
-                                            <color key="titleColor" red="0.67071039990000003" green="0.67071039990000003" blue="0.67071039990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Na8-ar-BwW">
-                                        <rect key="frame" x="191" y="0.0" width="185" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10000" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STH-h9-xdv">
+                                        <rect key="frame" x="191" y="0.0" width="185" height="42"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="38" id="jbR-UK-0GR"/>
-                                            <constraint firstAttribute="width" constant="185" id="sjs-eO-asM"/>
+                                            <constraint firstAttribute="width" constant="185" id="BFW-qG-ard"/>
+                                            <constraint firstAttribute="height" constant="42" id="b5Y-PH-bem"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="tintColor" systemColor="labelColor"/>
-                                        <inset key="titleEdgeInsets" minX="-115" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <inset key="imageEdgeInsets" minX="160" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="10000" image="down_arrow">
-                                            <color key="titleColor" red="0.67071039990000003" green="0.67071039990000003" blue="0.67071039990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -87,16 +77,10 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="ENq-Xf-kc4"/>
             <connections>
-                <outlet property="maxAmtBtn" destination="Na8-ar-BwW" id="D0j-YM-j6y"/>
-                <outlet property="minAmtBtn" destination="efL-0c-f15" id="4ra-c5-Ypl"/>
+                <outlet property="maxbuildarea" destination="STH-h9-xdv" id="HSe-x0-x0E"/>
+                <outlet property="minbuildarea" destination="amK-QZ-Mbd" id="v55-kI-p4h"/>
             </connections>
             <point key="canvasLocation" x="82.608695652173921" y="75"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="down_arrow" width="20" height="20"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
