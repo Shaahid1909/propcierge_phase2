@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdvancedFilterCell" rowHeight="584" id="6OG-Gb-Jqb" customClass="AdvancedFilterCell" customModule="propciergeRealityServices" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="584"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="6OG-Gb-Jqb" id="WCQ-lH-QvA">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="584"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="8he-El-FKl">
+                        <rect key="frame" x="10" y="37" width="366" height="502.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="On1-H2-9VE">
+                                <rect key="frame" x="0.0" y="0.0" width="86" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amenties" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4P-So-amX">
+                                        <rect key="frame" x="0.0" y="0.0" width="86" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="86" id="dBG-HW-KiC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="QPr-c7-0K1"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="U0d-HD-Ocg">
+                                <rect key="frame" x="0.0" y="47" width="342.5" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3q-Ia-9Dl">
+                                        <rect key="frame" x="-2" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="cDy-sw-eqb"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obr-sY-aRo">
+                                        <rect key="frame" x="35" y="0.0" width="54.5" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="54.5" id="I4b-35-atk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPG-MJ-KM3">
+                                        <rect key="frame" x="106.5" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="8gA-4r-TjM"/>
+                                            <constraint firstAttribute="height" constant="22" id="iOA-Wf-UVy"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gym" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WoL-HC-vYJ">
+                                        <rect key="frame" x="143.5" y="0.0" width="34" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="y1e-dW-4SA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixk-b4-0VJ">
+                                        <rect key="frame" x="194.5" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="5o9-P7-ask"/>
+                                            <constraint firstAttribute="height" constant="22" id="F4a-ME-5rK"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Swimming pool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRX-Tv-tT4">
+                                        <rect key="frame" x="231.5" y="0.0" width="111" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="i3q-Ia-9Dl" firstAttribute="leading" secondItem="U0d-HD-Ocg" secondAttribute="leading" constant="-2" id="y62-xc-q1c"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="fkb-Tg-Yot">
+                                <rect key="frame" x="0.0" y="95" width="334" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9j-e3-qJL">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="aXC-fS-yJf"/>
+                                            <constraint firstAttribute="width" constant="20" id="kJq-Vb-HFt"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Club House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdJ-VU-EpS">
+                                        <rect key="frame" x="32" y="0.0" width="88.5" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="88.666666666666686" id="9VR-Bi-oUB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaL-Xq-tFt">
+                                        <rect key="frame" x="132.5" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="Dzh-Oc-E4p"/>
+                                            <constraint firstAttribute="height" constant="22" id="S8v-bm-7DC"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power Back" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDz-eV-2gj">
+                                        <rect key="frame" x="164.5" y="0.0" width="89.5" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="89.333333333333343" id="XC1-v7-xXp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8l-cW-kJo">
+                                        <rect key="frame" x="266" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="F1X-BW-FGT"/>
+                                            <constraint firstAttribute="height" constant="22" id="u0t-p5-CFn"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="lift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acb-d1-kYG">
+                                        <rect key="frame" x="298" y="0.0" width="36" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="36" id="6Ub-Rm-fx4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="LM8-eq-mYO">
+                                <rect key="frame" x="-1.5" y="143" width="367.5" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMz-Gd-B3h">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="fXa-k4-4bP"/>
+                                            <constraint firstAttribute="height" constant="22" id="zti-T0-qI7"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODv-Mt-vo9">
+                                        <rect key="frame" x="26" y="0.0" width="53.5" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="53.5" id="Exw-uF-zjT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4u-Kv-aSG">
+                                        <rect key="frame" x="85.5" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="JGK-CB-7k7"/>
+                                            <constraint firstAttribute="height" constant="22" id="tsf-oA-P9g"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Security" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOn-B9-GoD">
+                                        <rect key="frame" x="111.5" y="0.0" width="69" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="69" id="fKn-1M-zef"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQw-mY-elV">
+                                        <rect key="frame" x="186.5" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="NUz-hX-Zms"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vastu Complaint" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXd-ds-60E">
+                                        <rect key="frame" x="212.5" y="0.0" width="155" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="rg4-hF-hZa">
+                                <rect key="frame" x="0.0" y="191" width="281.5" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkJ-KV-iRe">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="LjK-tK-pET"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="RERA Registered" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTo-fx-KiJ">
+                                        <rect key="frame" x="35" y="0.0" width="122.5" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="122.5" id="5wg-b1-ZSh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYx-Rc-mut">
+                                        <rect key="frame" x="172.5" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="C2Y-hR-Ptm"/>
+                                            <constraint firstAttribute="height" constant="22" id="jcE-Q7-7bH"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piped Gas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQC-as-Edu">
+                                        <rect key="frame" x="207.5" y="0.0" width="74" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="LTo-fx-KiJ" firstAttribute="leading" secondItem="lkJ-KV-iRe" secondAttribute="trailing" constant="15" id="F3n-ua-X1c"/>
+                                    <constraint firstItem="EQC-as-Edu" firstAttribute="leading" secondItem="ZYx-Rc-mut" secondAttribute="trailing" constant="15" id="Rsg-jQ-2Rs"/>
+                                    <constraint firstItem="lkJ-KV-iRe" firstAttribute="leading" secondItem="rg4-hF-hZa" secondAttribute="leading" id="m0o-GN-1J2"/>
+                                    <constraint firstItem="ZYx-Rc-mut" firstAttribute="leading" secondItem="LTo-fx-KiJ" secondAttribute="trailing" constant="15" id="yOo-YR-c1u"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ktt-4U-VOd">
+                                <rect key="frame" x="2.5" y="239" width="168.5" height="18"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Built Up Area(sq.ft)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEt-yk-Z9W">
+                                        <rect key="frame" x="0.0" y="0.0" width="168.5" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="168.5" id="pQd-dO-a7Z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168.5" id="TVV-wQ-ViI"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1yH-fO-TPL">
+                                <rect key="frame" x="0.0" y="283" width="366" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuY-PP-Wez">
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="177" id="Q0S-ge-fg3"/>
+                                            <constraint firstAttribute="height" constant="50" id="Ve7-4T-GF9"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <inset key="titleEdgeInsets" minX="-111" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="149" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="600" image="down_arrow">
+                                            <color key="titleColor" red="0.67071039990000003" green="0.67071039990000003" blue="0.67071039990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSg-YO-OsZ">
+                                        <rect key="frame" x="185" y="0.0" width="181" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="S9Z-X7-Fq6"/>
+                                            <constraint firstAttribute="width" constant="181" id="wZM-wL-7PK"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <inset key="titleEdgeInsets" minX="-111" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="138" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="1900" image="down_arrow">
+                                            <color key="titleColor" red="0.67071039990000003" green="0.67071039990000003" blue="0.67071039990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AMz-qp-evy"/>
+                                    <constraint firstAttribute="bottom" secondItem="dSg-YO-OsZ" secondAttribute="bottom" id="Auh-kz-zrW"/>
+                                    <constraint firstItem="dSg-YO-OsZ" firstAttribute="top" secondItem="1yH-fO-TPL" secondAttribute="top" id="iRr-TV-cpJ"/>
+                                    <constraint firstItem="uuY-PP-Wez" firstAttribute="top" secondItem="1yH-fO-TPL" secondAttribute="top" id="igQ-Qt-PWP"/>
+                                    <constraint firstAttribute="bottom" secondItem="uuY-PP-Wez" secondAttribute="bottom" id="zHP-Gm-s1U"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Zcy-TX-Z2O">
+                                <rect key="frame" x="3" y="359" width="98.5" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furnishing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfa-33-hTV">
+                                        <rect key="frame" x="0.0" y="0.0" width="95" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="95" id="IbR-nv-dbV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="0Ch-jF-com"/>
+                                    <constraint firstAttribute="width" constant="98.5" id="hC2-Ev-92O"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="jRC-TV-kYh">
+                                <rect key="frame" x="5" y="383" width="195.5" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRE-dU-W2N">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="oPs-Uv-8G2"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unq-P5-Dz7">
+                                        <rect key="frame" x="42" y="0.0" width="31.5" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="31.5" id="Pbz-tx-X9q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pb1-xb-mDP">
+                                        <rect key="frame" x="106.5" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="fX6-OF-HGO"/>
+                                            <constraint firstAttribute="width" constant="20" id="zh9-WQ-xmr"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Semi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K40-W4-eaA">
+                                        <rect key="frame" x="157.5" y="0.0" width="38" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="38" id="h4J-UD-QRp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="K40-W4-eaA" firstAttribute="leading" secondItem="pb1-xb-mDP" secondAttribute="trailing" constant="31" id="ANW-E3-Sw7"/>
+                                    <constraint firstItem="unq-P5-Dz7" firstAttribute="leading" secondItem="ZRE-dU-W2N" secondAttribute="trailing" constant="22" id="Vtb-Va-iva"/>
+                                    <constraint firstAttribute="trailing" secondItem="K40-W4-eaA" secondAttribute="trailing" id="Wxm-KE-Icv"/>
+                                    <constraint firstAttribute="height" constant="22" id="Xcv-5J-0wV"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gOf-P7-X8M">
+                                <rect key="frame" x="0.0" y="431" width="118.5" height="23"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zv3-Rp-jBd">
+                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="23"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="23" id="1Tp-TB-Scu"/>
+                                            <constraint firstAttribute="width" constant="118.5" id="9vh-p1-Ik0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="zv3-Rp-jBd" secondAttribute="trailing" id="TVc-Kv-Zw8"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="1dd-am-IXJ">
+                                <rect key="frame" x="0.0" y="480.5" width="350" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPI-uc-IcJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Vj-UB-aKa">
+                                        <rect key="frame" x="37" y="0.0" width="36" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-ov-SdL">
+                                        <rect key="frame" x="90" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="GEB-9f-4c7"/>
+                                            <constraint firstAttribute="width" constant="20" id="kTe-Hp-SQA"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ud-Lm-CLd">
+                                        <rect key="frame" x="127" y="0.0" width="38" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8r4-Pf-Qvn">
+                                        <rect key="frame" x="182" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="9pY-zn-xQl"/>
+                                            <constraint firstAttribute="width" constant="20" id="pip-5y-OQs"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kz0-3x-Ceq">
+                                        <rect key="frame" x="219" y="0.0" width="38.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfC-QL-UGa">
+                                        <rect key="frame" x="274.5" y="0.0" width="20" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="m9Z-d5-7iI"/>
+                                            <constraint firstAttribute="height" constant="22" id="tj0-Hn-LyA"/>
+                                        </constraints>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2024" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHW-NQ-jz9">
+                                        <rect key="frame" x="311.5" y="0.0" width="38.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ktt-4U-VOd" firstAttribute="leading" secondItem="8he-El-FKl" secondAttribute="leading" constant="2.5" id="4OI-xt-2BM"/>
+                            <constraint firstItem="U0d-HD-Ocg" firstAttribute="top" secondItem="8he-El-FKl" secondAttribute="top" constant="47" id="9qG-9t-MWj"/>
+                            <constraint firstItem="jRC-TV-kYh" firstAttribute="top" secondItem="8he-El-FKl" secondAttribute="top" constant="383" id="CHg-VE-XPY"/>
+                            <constraint firstItem="Zcy-TX-Z2O" firstAttribute="leading" secondItem="8he-El-FKl" secondAttribute="leading" constant="3" id="ICk-a0-tln"/>
+                            <constraint firstAttribute="trailing" secondItem="LM8-eq-mYO" secondAttribute="trailing" id="IZj-ib-KuI"/>
+                            <constraint firstAttribute="height" constant="502.5" id="Kh2-bm-0RU"/>
+                            <constraint firstItem="rg4-hF-hZa" firstAttribute="leading" secondItem="8he-El-FKl" secondAttribute="leading" id="M37-7c-qIe"/>
+                            <constraint firstItem="jRC-TV-kYh" firstAttribute="leading" secondItem="8he-El-FKl" secondAttribute="leading" constant="5" id="RbW-1g-Q21"/>
+                            <constraint firstItem="LM8-eq-mYO" firstAttribute="leading" secondItem="8he-El-FKl" secondAttribute="leading" constant="-1.5" id="Vfg-9B-HR0"/>
+                            <constraint firstItem="1yH-fO-TPL" firstAttribute="top" secondItem="8he-El-FKl" secondAttribute="top" constant="283" id="kHR-bx-c2m"/>
+                            <constraint firstItem="1yH-fO-TPL" firstAttribute="leading" secondItem="8he-El-FKl" secondAttribute="leading" id="sUd-CV-Bd4"/>
+                            <constraint firstAttribute="trailing" secondItem="1yH-fO-TPL" secondAttribute="trailing" id="xAX-t6-PkF"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8he-El-FKl" firstAttribute="leading" secondItem="WCQ-lH-QvA" secondAttribute="leading" constant="10" id="53w-lJ-bsM"/>
+                    <constraint firstAttribute="trailing" secondItem="8he-El-FKl" secondAttribute="trailing" constant="20" id="BxI-kz-yLn"/>
+                    <constraint firstItem="8he-El-FKl" firstAttribute="top" secondItem="WCQ-lH-QvA" secondAttribute="top" constant="37" id="W62-Q9-lOL"/>
+                    <constraint firstAttribute="bottom" secondItem="8he-El-FKl" secondAttribute="bottom" constant="47" id="mjJ-Nz-2Ke"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="0OC-js-FMK"/>
+            <connections>
+                <outlet property="clubhousebtn" destination="Q9j-e3-qJL" id="RPr-hj-RIY"/>
+                <outlet property="furnishingfullbtn" destination="ZRE-dU-W2N" id="yKl-m6-645"/>
+                <outlet property="furnishingsemibtn" destination="pb1-xb-mDP" id="Cak-J1-h7m"/>
+                <outlet property="gardenbtn" destination="dMz-Gd-B3h" id="2I9-u1-ELV"/>
+                <outlet property="gymbtn" destination="yPG-MJ-KM3" id="4h8-ir-NYB"/>
+                <outlet property="liftbtn" destination="H8l-cW-kJo" id="l2L-my-qbO"/>
+                <outlet property="maxbuildarea" destination="dSg-YO-OsZ" id="Qjh-IV-F7D"/>
+                <outlet property="minbuildarea" destination="uuY-PP-Wez" id="5nL-Wg-Ki8"/>
+                <outlet property="parking" destination="i3q-Ia-9Dl" id="zt0-Ea-0GO"/>
+                <outlet property="pipedgasbtn" destination="ZYx-Rc-mut" id="aVn-sl-g5X"/>
+                <outlet property="powerbackbtn" destination="PaL-Xq-tFt" id="bqm-4W-Hlk"/>
+                <outlet property="reraregbtn" destination="lkJ-KV-iRe" id="zOZ-nZ-IPQ"/>
+                <outlet property="securitybtn" destination="O4u-Kv-aSG" id="Rrg-Wt-3bz"/>
+                <outlet property="swimmingpoolbtn" destination="ixk-b4-0VJ" id="gwb-FA-GXF"/>
+                <outlet property="twentyfourbtn" destination="AfC-QL-UGa" id="Ijd-Sg-YUQ"/>
+                <outlet property="twentyonebtn" destination="YPI-uc-IcJ" id="wgu-Pn-jgR"/>
+                <outlet property="twentythreebtn" destination="8r4-Pf-Qvn" id="Q2T-84-wds"/>
+                <outlet property="twentytwobtn" destination="Q0h-ov-SdL" id="7dY-M5-Qna"/>
+                <outlet property="vastucomplaintbtn" destination="YQw-mY-elV" id="2r4-kM-Pye"/>
+            </connections>
+            <point key="canvasLocation" x="12.318840579710146" y="-114.50892857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkbox_selected" width="20" height="20"/>
+        <image name="checkbox_unselected" width="20" height="20"/>
+        <image name="down_arrow" width="20" height="20"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

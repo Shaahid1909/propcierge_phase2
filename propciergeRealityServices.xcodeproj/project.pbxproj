@@ -15,6 +15,63 @@
 		1803A03D26498DE700C23899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1803A03B26498DE700C23899 /* LaunchScreen.storyboard */; };
 		1803A04826498DE900C23899 /* propciergeRealityServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A04726498DE900C23899 /* propciergeRealityServicesTests.swift */; };
 		1803A05326498DEA00C23899 /* propciergeRealityServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A05226498DEA00C23899 /* propciergeRealityServicesUITests.swift */; };
+		1807F852265275C90064939B /* resalepropertystatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F850265275C90064939B /* resalepropertystatus.swift */; };
+		1807F853265275C90064939B /* resalepropertystatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1807F851265275C90064939B /* resalepropertystatus.xib */; };
+		1807F8592652789A0064939B /* resaleadvancefiltercell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F8572652789A0064939B /* resaleadvancefiltercell.swift */; };
+		1807F85A2652789A0064939B /* resaleadvancefiltercell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1807F8582652789A0064939B /* resaleadvancefiltercell.xib */; };
+		1807F86026529A6E0064939B /* resaleadvbtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F85E26529A6D0064939B /* resaleadvbtn.swift */; };
+		1807F86126529A6E0064939B /* resaleadvbtn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1807F85F26529A6D0064939B /* resaleadvbtn.xib */; };
+		18244AE326513379002D4ED4 /* BuyComadvanceBtnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AE126513379002D4ED4 /* BuyComadvanceBtnCell.swift */; };
+		18244AE426513379002D4ED4 /* BuyComadvanceBtnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18244AE226513379002D4ED4 /* BuyComadvanceBtnCell.xib */; };
+		18244AEB26514E65002D4ED4 /* landCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AE926514E65002D4ED4 /* landCell.swift */; };
+		18244AEC26514E65002D4ED4 /* landCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18244AEA26514E65002D4ED4 /* landCell.xib */; };
+		18244AF226516948002D4ED4 /* ShareButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AF026516948002D4ED4 /* ShareButtonCell.swift */; };
+		18244AF326516948002D4ED4 /* ShareButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18244AF126516948002D4ED4 /* ShareButtonCell.xib */; };
+		18244AF926519947002D4ED4 /* searchCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AF726519946002D4ED4 /* searchCollCell.swift */; };
+		18244AFA26519947002D4ED4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AF826519947002D4ED4 /* SearchViewController.swift */; };
+		18244B012651995D002D4ED4 /* propertyDescriptionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AFE2651995C002D4ED4 /* propertyDescriptionPageView.swift */; };
+		18244B022651995D002D4ED4 /* PropertyDesPageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AFF2651995C002D4ED4 /* PropertyDesPageTableCell.swift */; };
+		18244B032651995D002D4ED4 /* prophotosCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244B002651995C002D4ED4 /* prophotosCollCell.swift */; };
+		187577F82653911E00EB2DD7 /* logocell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187577F62653911E00EB2DD7 /* logocell.swift */; };
+		187577F92653911E00EB2DD7 /* logocell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187577F72653911E00EB2DD7 /* logocell.xib */; };
+		187577FF265391E700EB2DD7 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187577FD265391E700EB2DD7 /* TitleCell.swift */; };
+		18757800265391E700EB2DD7 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187577FE265391E700EB2DD7 /* TitleCell.xib */; };
+		187578062653922700EB2DD7 /* propertiesnearmecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187578042653922700EB2DD7 /* propertiesnearmecell.swift */; };
+		187578072653922700EB2DD7 /* propertiesnearmecell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187578052653922700EB2DD7 /* propertiesnearmecell.xib */; };
+		18D5558D26500B540004BE64 /* realityserviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5558C26500B540004BE64 /* realityserviceVC.swift */; };
+		18D5559226500F800004BE64 /* RealtyCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559126500F7F0004BE64 /* RealtyCells.swift */; };
+		18D5559726500F8C0004BE64 /* RealtyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559626500F8C0004BE64 /* RealtyModel.swift */; };
+		18D555A3265052BE0004BE64 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559C265052BD0004BE64 /* CategoryCell.swift */; };
+		18D555A4265052BF0004BE64 /* TypeRadioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559D265052BE0004BE64 /* TypeRadioCell.swift */; };
+		18D555A5265052BF0004BE64 /* PriceRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559E265052BE0004BE64 /* PriceRangeCell.swift */; };
+		18D555A6265052BF0004BE64 /* PropertyStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559F265052BE0004BE64 /* PropertyStatusCell.swift */; };
+		18D555A7265052BF0004BE64 /* bhkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555A0265052BE0004BE64 /* bhkCell.swift */; };
+		18D555A8265052BF0004BE64 /* AdvancedFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555A1265052BE0004BE64 /* AdvancedFilterCell.swift */; };
+		18D555A9265052BF0004BE64 /* PropertyTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555A2265052BE0004BE64 /* PropertyTypeCell.swift */; };
+		18D555AE2650555E0004BE64 /* TypeRadioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555AD2650555E0004BE64 /* TypeRadioCell.xib */; };
+		18D555B3265055B60004BE64 /* PropertyTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555B2265055B60004BE64 /* PropertyTypeCell.xib */; };
+		18D555B8265055E30004BE64 /* PropertyStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555B7265055E30004BE64 /* PropertyStatusCell.xib */; };
+		18D555BD265056680004BE64 /* PriceRangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555BC265056680004BE64 /* PriceRangeCell.xib */; };
+		18D555C2265056BD0004BE64 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555C1265056BD0004BE64 /* CategoryCell.xib */; };
+		18D555C7265056DE0004BE64 /* bhkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555C6265056DE0004BE64 /* bhkCell.xib */; };
+		18D555CC265056FD0004BE64 /* AdvancedFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555CB265056FD0004BE64 /* AdvancedFilterCell.xib */; };
+		18D555DD26506A8A0004BE64 /* CommercialPriceRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555D126506A880004BE64 /* CommercialPriceRangeCell.swift */; };
+		18D555DE26506A8A0004BE64 /* commercialNoOfseatsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555D226506A880004BE64 /* commercialNoOfseatsCell.xib */; };
+		18D555DF26506A8A0004BE64 /* CommercialCoveredAreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555D326506A880004BE64 /* CommercialCoveredAreaCell.xib */; };
+		18D555E026506A8A0004BE64 /* CommercialPriceRangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555D426506A890004BE64 /* CommercialPriceRangeCell.xib */; };
+		18D555E126506A8A0004BE64 /* BuiltupareaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555D526506A890004BE64 /* BuiltupareaCell.xib */; };
+		18D555E226506A8A0004BE64 /* commercialAdvancedFilters.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555D626506A890004BE64 /* commercialAdvancedFilters.xib */; };
+		18D555E326506A8A0004BE64 /* commercialpropertytypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555D726506A890004BE64 /* commercialpropertytypeCell.swift */; };
+		18D555E426506A8A0004BE64 /* commercialpropertytypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555D826506A890004BE64 /* commercialpropertytypeCell.xib */; };
+		18D555E526506A8A0004BE64 /* commercialAdvancedFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555D926506A890004BE64 /* commercialAdvancedFilters.swift */; };
+		18D555E626506A8A0004BE64 /* CommercialCoveredAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555DA26506A890004BE64 /* CommercialCoveredAreaCell.swift */; };
+		18D555E726506A8A0004BE64 /* commercialNoOfseatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555DB26506A8A0004BE64 /* commercialNoOfseatsCell.swift */; };
+		18D555E826506A8A0004BE64 /* BuiltupareaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555DC26506A8A0004BE64 /* BuiltupareaCell.swift */; };
+		18D555EE265079D30004BE64 /* BuyResAdvancebtncell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D555EC265079D30004BE64 /* BuyResAdvancebtncell.swift */; };
+		18D555EF265079D30004BE64 /* BuyResAdvancebtncell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D555ED265079D30004BE64 /* BuyResAdvancebtncell.xib */; };
+		18FC55A62655298A0090A120 /* searchresulttablecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC55A4265529880090A120 /* searchresulttablecell.swift */; };
+		18FC55AF26552B1E0090A120 /* searchview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC55AE26552B1E0090A120 /* searchview.swift */; };
+		18FC55B526552BC30090A120 /* sebarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC55B326552BC30090A120 /* sebarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +106,63 @@
 		1803A04E26498DEA00C23899 /* propciergeRealityServicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = propciergeRealityServicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1803A05226498DEA00C23899 /* propciergeRealityServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propciergeRealityServicesUITests.swift; sourceTree = "<group>"; };
 		1803A05426498DEA00C23899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1807F850265275C90064939B /* resalepropertystatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resalepropertystatus.swift; sourceTree = "<group>"; };
+		1807F851265275C90064939B /* resalepropertystatus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = resalepropertystatus.xib; sourceTree = "<group>"; };
+		1807F8572652789A0064939B /* resaleadvancefiltercell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resaleadvancefiltercell.swift; sourceTree = "<group>"; };
+		1807F8582652789A0064939B /* resaleadvancefiltercell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = resaleadvancefiltercell.xib; sourceTree = "<group>"; };
+		1807F85E26529A6D0064939B /* resaleadvbtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resaleadvbtn.swift; sourceTree = "<group>"; };
+		1807F85F26529A6D0064939B /* resaleadvbtn.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = resaleadvbtn.xib; sourceTree = "<group>"; };
+		18244AE126513379002D4ED4 /* BuyComadvanceBtnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyComadvanceBtnCell.swift; sourceTree = "<group>"; };
+		18244AE226513379002D4ED4 /* BuyComadvanceBtnCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyComadvanceBtnCell.xib; sourceTree = "<group>"; };
+		18244AE926514E65002D4ED4 /* landCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landCell.swift; sourceTree = "<group>"; };
+		18244AEA26514E65002D4ED4 /* landCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = landCell.xib; sourceTree = "<group>"; };
+		18244AF026516948002D4ED4 /* ShareButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButtonCell.swift; sourceTree = "<group>"; };
+		18244AF126516948002D4ED4 /* ShareButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareButtonCell.xib; sourceTree = "<group>"; };
+		18244AF726519946002D4ED4 /* searchCollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchCollCell.swift; sourceTree = "<group>"; };
+		18244AF826519947002D4ED4 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		18244AFE2651995C002D4ED4 /* propertyDescriptionPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = propertyDescriptionPageView.swift; sourceTree = "<group>"; };
+		18244AFF2651995C002D4ED4 /* PropertyDesPageTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyDesPageTableCell.swift; sourceTree = "<group>"; };
+		18244B002651995C002D4ED4 /* prophotosCollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prophotosCollCell.swift; sourceTree = "<group>"; };
+		187577F62653911E00EB2DD7 /* logocell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logocell.swift; sourceTree = "<group>"; };
+		187577F72653911E00EB2DD7 /* logocell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = logocell.xib; sourceTree = "<group>"; };
+		187577FD265391E700EB2DD7 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		187577FE265391E700EB2DD7 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		187578042653922700EB2DD7 /* propertiesnearmecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propertiesnearmecell.swift; sourceTree = "<group>"; };
+		187578052653922700EB2DD7 /* propertiesnearmecell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = propertiesnearmecell.xib; sourceTree = "<group>"; };
+		18D5558C26500B540004BE64 /* realityserviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realityserviceVC.swift; sourceTree = "<group>"; };
+		18D5559126500F7F0004BE64 /* RealtyCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtyCells.swift; sourceTree = "<group>"; };
+		18D5559626500F8C0004BE64 /* RealtyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtyModel.swift; sourceTree = "<group>"; };
+		18D5559C265052BD0004BE64 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		18D5559D265052BE0004BE64 /* TypeRadioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeRadioCell.swift; sourceTree = "<group>"; };
+		18D5559E265052BE0004BE64 /* PriceRangeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceRangeCell.swift; sourceTree = "<group>"; };
+		18D5559F265052BE0004BE64 /* PropertyStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyStatusCell.swift; sourceTree = "<group>"; };
+		18D555A0265052BE0004BE64 /* bhkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bhkCell.swift; sourceTree = "<group>"; };
+		18D555A1265052BE0004BE64 /* AdvancedFilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedFilterCell.swift; sourceTree = "<group>"; };
+		18D555A2265052BE0004BE64 /* PropertyTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyTypeCell.swift; sourceTree = "<group>"; };
+		18D555AD2650555E0004BE64 /* TypeRadioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeRadioCell.xib; sourceTree = "<group>"; };
+		18D555B2265055B60004BE64 /* PropertyTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyTypeCell.xib; sourceTree = "<group>"; };
+		18D555B7265055E30004BE64 /* PropertyStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyStatusCell.xib; sourceTree = "<group>"; };
+		18D555BC265056680004BE64 /* PriceRangeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceRangeCell.xib; sourceTree = "<group>"; };
+		18D555C1265056BD0004BE64 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		18D555C6265056DE0004BE64 /* bhkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bhkCell.xib; sourceTree = "<group>"; };
+		18D555CB265056FD0004BE64 /* AdvancedFilterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvancedFilterCell.xib; sourceTree = "<group>"; };
+		18D555D126506A880004BE64 /* CommercialPriceRangeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommercialPriceRangeCell.swift; sourceTree = "<group>"; };
+		18D555D226506A880004BE64 /* commercialNoOfseatsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = commercialNoOfseatsCell.xib; sourceTree = "<group>"; };
+		18D555D326506A880004BE64 /* CommercialCoveredAreaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommercialCoveredAreaCell.xib; sourceTree = "<group>"; };
+		18D555D426506A890004BE64 /* CommercialPriceRangeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommercialPriceRangeCell.xib; sourceTree = "<group>"; };
+		18D555D526506A890004BE64 /* BuiltupareaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuiltupareaCell.xib; sourceTree = "<group>"; };
+		18D555D626506A890004BE64 /* commercialAdvancedFilters.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = commercialAdvancedFilters.xib; sourceTree = "<group>"; };
+		18D555D726506A890004BE64 /* commercialpropertytypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commercialpropertytypeCell.swift; sourceTree = "<group>"; };
+		18D555D826506A890004BE64 /* commercialpropertytypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = commercialpropertytypeCell.xib; sourceTree = "<group>"; };
+		18D555D926506A890004BE64 /* commercialAdvancedFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commercialAdvancedFilters.swift; sourceTree = "<group>"; };
+		18D555DA26506A890004BE64 /* CommercialCoveredAreaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommercialCoveredAreaCell.swift; sourceTree = "<group>"; };
+		18D555DB26506A8A0004BE64 /* commercialNoOfseatsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commercialNoOfseatsCell.swift; sourceTree = "<group>"; };
+		18D555DC26506A8A0004BE64 /* BuiltupareaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuiltupareaCell.swift; sourceTree = "<group>"; };
+		18D555EC265079D30004BE64 /* BuyResAdvancebtncell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyResAdvancebtncell.swift; sourceTree = "<group>"; };
+		18D555ED265079D30004BE64 /* BuyResAdvancebtncell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyResAdvancebtncell.xib; sourceTree = "<group>"; };
+		18FC55A4265529880090A120 /* searchresulttablecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchresulttablecell.swift; sourceTree = "<group>"; };
+		18FC55AE26552B1E0090A120 /* searchview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchview.swift; sourceTree = "<group>"; };
+		18FC55B326552BC30090A120 /* sebarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sebarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +213,12 @@
 		1803A02F26498DA000C23899 /* propciergeRealityServices */ = {
 			isa = PBXGroup;
 			children = (
+				18FC55A0265528E40090A120 /* searchView */,
+				187577F5265390F200EB2DD7 /* others */,
+				1807F84F2652752E0064939B /* resale */,
+				18244AE826514DFE002D4ED4 /* landtypeCell */,
+				18D555D026506A650004BE64 /* Buy commercial */,
+				18D5559B265052790004BE64 /* BuyResidentialCells */,
 				1803A03026498DA200C23899 /* AppDelegate.swift */,
 				1803A03226498DA200C23899 /* SceneDelegate.swift */,
 				1803A03426498DA300C23899 /* ViewController.swift */,
@@ -106,6 +226,14 @@
 				1803A03926498DE700C23899 /* Assets.xcassets */,
 				1803A03B26498DE700C23899 /* LaunchScreen.storyboard */,
 				1803A03E26498DE700C23899 /* Info.plist */,
+				18D5558C26500B540004BE64 /* realityserviceVC.swift */,
+				18D5559126500F7F0004BE64 /* RealtyCells.swift */,
+				18D5559626500F8C0004BE64 /* RealtyModel.swift */,
+				18244AF726519946002D4ED4 /* searchCollCell.swift */,
+				18244AF826519947002D4ED4 /* SearchViewController.swift */,
+				18244AFE2651995C002D4ED4 /* propertyDescriptionPageView.swift */,
+				18244AFF2651995C002D4ED4 /* PropertyDesPageTableCell.swift */,
+				18244B002651995C002D4ED4 /* prophotosCollCell.swift */,
 			);
 			path = propciergeRealityServices;
 			sourceTree = "<group>";
@@ -126,6 +254,97 @@
 				1803A05426498DEA00C23899 /* Info.plist */,
 			);
 			path = propciergeRealityServicesUITests;
+			sourceTree = "<group>";
+		};
+		1807F84F2652752E0064939B /* resale */ = {
+			isa = PBXGroup;
+			children = (
+				1807F850265275C90064939B /* resalepropertystatus.swift */,
+				1807F851265275C90064939B /* resalepropertystatus.xib */,
+				1807F8572652789A0064939B /* resaleadvancefiltercell.swift */,
+				1807F8582652789A0064939B /* resaleadvancefiltercell.xib */,
+				1807F85E26529A6D0064939B /* resaleadvbtn.swift */,
+				1807F85F26529A6D0064939B /* resaleadvbtn.xib */,
+			);
+			path = resale;
+			sourceTree = "<group>";
+		};
+		18244AE826514DFE002D4ED4 /* landtypeCell */ = {
+			isa = PBXGroup;
+			children = (
+				18244AE926514E65002D4ED4 /* landCell.swift */,
+				18244AEA26514E65002D4ED4 /* landCell.xib */,
+			);
+			path = landtypeCell;
+			sourceTree = "<group>";
+		};
+		187577F5265390F200EB2DD7 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				187577F62653911E00EB2DD7 /* logocell.swift */,
+				187577F72653911E00EB2DD7 /* logocell.xib */,
+				187577FD265391E700EB2DD7 /* TitleCell.swift */,
+				187577FE265391E700EB2DD7 /* TitleCell.xib */,
+				187578042653922700EB2DD7 /* propertiesnearmecell.swift */,
+				187578052653922700EB2DD7 /* propertiesnearmecell.xib */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		18D5559B265052790004BE64 /* BuyResidentialCells */ = {
+			isa = PBXGroup;
+			children = (
+				18D555A1265052BE0004BE64 /* AdvancedFilterCell.swift */,
+				18D555A0265052BE0004BE64 /* bhkCell.swift */,
+				18D5559C265052BD0004BE64 /* CategoryCell.swift */,
+				18D5559E265052BE0004BE64 /* PriceRangeCell.swift */,
+				18D5559F265052BE0004BE64 /* PropertyStatusCell.swift */,
+				18D555A2265052BE0004BE64 /* PropertyTypeCell.swift */,
+				18D5559D265052BE0004BE64 /* TypeRadioCell.swift */,
+				18D555AD2650555E0004BE64 /* TypeRadioCell.xib */,
+				18D555B2265055B60004BE64 /* PropertyTypeCell.xib */,
+				18D555B7265055E30004BE64 /* PropertyStatusCell.xib */,
+				18D555BC265056680004BE64 /* PriceRangeCell.xib */,
+				18D555C1265056BD0004BE64 /* CategoryCell.xib */,
+				18D555C6265056DE0004BE64 /* bhkCell.xib */,
+				18D555CB265056FD0004BE64 /* AdvancedFilterCell.xib */,
+				18D555EC265079D30004BE64 /* BuyResAdvancebtncell.swift */,
+				18D555ED265079D30004BE64 /* BuyResAdvancebtncell.xib */,
+				18244AF026516948002D4ED4 /* ShareButtonCell.swift */,
+				18244AF126516948002D4ED4 /* ShareButtonCell.xib */,
+			);
+			path = BuyResidentialCells;
+			sourceTree = "<group>";
+		};
+		18D555D026506A650004BE64 /* Buy commercial */ = {
+			isa = PBXGroup;
+			children = (
+				18D555DC26506A8A0004BE64 /* BuiltupareaCell.swift */,
+				18D555D526506A890004BE64 /* BuiltupareaCell.xib */,
+				18D555D926506A890004BE64 /* commercialAdvancedFilters.swift */,
+				18D555D626506A890004BE64 /* commercialAdvancedFilters.xib */,
+				18D555DA26506A890004BE64 /* CommercialCoveredAreaCell.swift */,
+				18D555D326506A880004BE64 /* CommercialCoveredAreaCell.xib */,
+				18D555DB26506A8A0004BE64 /* commercialNoOfseatsCell.swift */,
+				18D555D226506A880004BE64 /* commercialNoOfseatsCell.xib */,
+				18D555D126506A880004BE64 /* CommercialPriceRangeCell.swift */,
+				18D555D426506A890004BE64 /* CommercialPriceRangeCell.xib */,
+				18D555D726506A890004BE64 /* commercialpropertytypeCell.swift */,
+				18D555D826506A890004BE64 /* commercialpropertytypeCell.xib */,
+				18244AE126513379002D4ED4 /* BuyComadvanceBtnCell.swift */,
+				18244AE226513379002D4ED4 /* BuyComadvanceBtnCell.xib */,
+			);
+			path = "Buy commercial";
+			sourceTree = "<group>";
+		};
+		18FC55A0265528E40090A120 /* searchView */ = {
+			isa = PBXGroup;
+			children = (
+				18FC55A4265529880090A120 /* searchresulttablecell.swift */,
+				18FC55AE26552B1E0090A120 /* searchview.swift */,
+				18FC55B326552BC30090A120 /* sebarCell.swift */,
+			);
+			path = searchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +450,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D555E126506A8A0004BE64 /* BuiltupareaCell.xib in Resources */,
 				1803A03D26498DE700C23899 /* LaunchScreen.storyboard in Resources */,
+				18D555EF265079D30004BE64 /* BuyResAdvancebtncell.xib in Resources */,
+				18D555E426506A8A0004BE64 /* commercialpropertytypeCell.xib in Resources */,
 				1803A03A26498DE700C23899 /* Assets.xcassets in Resources */,
+				18D555B8265055E30004BE64 /* PropertyStatusCell.xib in Resources */,
+				18D555DF26506A8A0004BE64 /* CommercialCoveredAreaCell.xib in Resources */,
+				18D555CC265056FD0004BE64 /* AdvancedFilterCell.xib in Resources */,
+				1807F853265275C90064939B /* resalepropertystatus.xib in Resources */,
+				18D555BD265056680004BE64 /* PriceRangeCell.xib in Resources */,
 				1803A03826498DA400C23899 /* Main.storyboard in Resources */,
+				18D555E226506A8A0004BE64 /* commercialAdvancedFilters.xib in Resources */,
+				18244AEC26514E65002D4ED4 /* landCell.xib in Resources */,
+				1807F86126529A6E0064939B /* resaleadvbtn.xib in Resources */,
+				187577F92653911E00EB2DD7 /* logocell.xib in Resources */,
+				18D555B3265055B60004BE64 /* PropertyTypeCell.xib in Resources */,
+				18D555DE26506A8A0004BE64 /* commercialNoOfseatsCell.xib in Resources */,
+				18D555E026506A8A0004BE64 /* CommercialPriceRangeCell.xib in Resources */,
+				18244AF326516948002D4ED4 /* ShareButtonCell.xib in Resources */,
+				18757800265391E700EB2DD7 /* TitleCell.xib in Resources */,
+				18D555AE2650555E0004BE64 /* TypeRadioCell.xib in Resources */,
+				1807F85A2652789A0064939B /* resaleadvancefiltercell.xib in Resources */,
+				187578072653922700EB2DD7 /* propertiesnearmecell.xib in Resources */,
+				18D555C2265056BD0004BE64 /* CategoryCell.xib in Resources */,
+				18244AE426513379002D4ED4 /* BuyComadvanceBtnCell.xib in Resources */,
+				18D555C7265056DE0004BE64 /* bhkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +500,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D555A6265052BF0004BE64 /* PropertyStatusCell.swift in Sources */,
+				18D5559726500F8C0004BE64 /* RealtyModel.swift in Sources */,
 				1803A03526498DA300C23899 /* ViewController.swift in Sources */,
+				1807F852265275C90064939B /* resalepropertystatus.swift in Sources */,
+				18244AE326513379002D4ED4 /* BuyComadvanceBtnCell.swift in Sources */,
+				18244AEB26514E65002D4ED4 /* landCell.swift in Sources */,
+				18D555E326506A8A0004BE64 /* commercialpropertytypeCell.swift in Sources */,
+				18D555A8265052BF0004BE64 /* AdvancedFilterCell.swift in Sources */,
+				18D555E526506A8A0004BE64 /* commercialAdvancedFilters.swift in Sources */,
+				18D555E826506A8A0004BE64 /* BuiltupareaCell.swift in Sources */,
+				18244AF226516948002D4ED4 /* ShareButtonCell.swift in Sources */,
+				18244B032651995D002D4ED4 /* prophotosCollCell.swift in Sources */,
+				187577FF265391E700EB2DD7 /* TitleCell.swift in Sources */,
+				18244B022651995D002D4ED4 /* PropertyDesPageTableCell.swift in Sources */,
+				18D555E626506A8A0004BE64 /* CommercialCoveredAreaCell.swift in Sources */,
+				18D5558D26500B540004BE64 /* realityserviceVC.swift in Sources */,
+				18D555A3265052BE0004BE64 /* CategoryCell.swift in Sources */,
+				18FC55A62655298A0090A120 /* searchresulttablecell.swift in Sources */,
 				1803A03126498DA200C23899 /* AppDelegate.swift in Sources */,
+				1807F86026529A6E0064939B /* resaleadvbtn.swift in Sources */,
+				18D555A7265052BF0004BE64 /* bhkCell.swift in Sources */,
+				18244AFA26519947002D4ED4 /* SearchViewController.swift in Sources */,
+				18244AF926519947002D4ED4 /* searchCollCell.swift in Sources */,
+				18244B012651995D002D4ED4 /* propertyDescriptionPageView.swift in Sources */,
 				1803A03326498DA200C23899 /* SceneDelegate.swift in Sources */,
+				1807F8592652789A0064939B /* resaleadvancefiltercell.swift in Sources */,
+				18D555EE265079D30004BE64 /* BuyResAdvancebtncell.swift in Sources */,
+				18D5559226500F800004BE64 /* RealtyCells.swift in Sources */,
+				187577F82653911E00EB2DD7 /* logocell.swift in Sources */,
+				18D555A4265052BF0004BE64 /* TypeRadioCell.swift in Sources */,
+				18D555E726506A8A0004BE64 /* commercialNoOfseatsCell.swift in Sources */,
+				187578062653922700EB2DD7 /* propertiesnearmecell.swift in Sources */,
+				18FC55AF26552B1E0090A120 /* searchview.swift in Sources */,
+				18FC55B526552BC30090A120 /* sebarCell.swift in Sources */,
+				18D555DD26506A8A0004BE64 /* CommercialPriceRangeCell.swift in Sources */,
+				18D555A5265052BF0004BE64 /* PriceRangeCell.swift in Sources */,
+				18D555A9265052BF0004BE64 /* PropertyTypeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +697,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +713,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E529H4569;
 				INFOPLIST_FILE = propciergeRealityServices/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +732,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E529H4569;
 				INFOPLIST_FILE = propciergeRealityServices/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="commercialpropertytypeCell" rowHeight="184" id="TPk-jp-4c8" customClass="commercialpropertytypeCell" customModule="propciergeRealityServices" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="184"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TPk-jp-4c8" id="KWM-6u-igF">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="184"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Elp-os-H5J">
+                        <rect key="frame" x="10" y="4" width="384" height="154"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fb7-kn-tgR">
+                                <rect key="frame" x="0.0" y="0.0" width="157" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugh-1m-YgA">
+                                        <rect key="frame" x="0.0" y="0.0" width="157" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="157" id="9j7-UU-808"/>
+                                            <constraint firstAttribute="height" constant="21" id="NgW-S5-SgG"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Property Type">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="20" name="SFProDisplay-Semibold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="2cj-rt-JEz">
+                                <rect key="frame" x="0.0" y="44" width="341" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5w-VQ-h12">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Office Space" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYy-iy-0g4">
+                                        <rect key="frame" x="31" y="0.0" width="109" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="109" id="xWT-eL-uur"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZU5-2e-lrZ">
+                                        <rect key="frame" x="151" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commercial Building" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67J-ts-gph">
+                                        <rect key="frame" x="182" y="0.0" width="159" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="159" id="Wv4-WC-hAF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="TN7-Si-WcO">
+                                <rect key="frame" x="0.0" y="89" width="313" height="21"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7y-xQ-6bq">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="21"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Standalone Land" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBI-tB-NCk">
+                                        <rect key="frame" x="33" y="0.0" width="137" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="K1G-j0-7uz"/>
+                                            <constraint firstAttribute="width" constant="137" id="rFK-4u-wNb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioq-1q-9oL">
+                                        <rect key="frame" x="183" y="0.0" width="20" height="21"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warehouse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfD-3p-qST">
+                                        <rect key="frame" x="216" y="0.0" width="97" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Ntj-Ww-z6N"/>
+                                            <constraint firstAttribute="width" constant="97" id="zpY-AA-Xbw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="8TE-aw-kf7">
+                                <rect key="frame" x="0.0" y="133" width="332.5" height="21"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5A-Ss-YVa">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="21"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Industrial Building" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02f-Ev-fTm">
+                                        <rect key="frame" x="26" y="0.0" width="140" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Bpl-ix-aoC"/>
+                                            <constraint firstAttribute="width" constant="140" id="fAF-OF-1Js"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1j-GO-flW">
+                                        <rect key="frame" x="172" y="0.0" width="20" height="21"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Co-working Space" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4g-dg-ao0">
+                                        <rect key="frame" x="198" y="0.0" width="134.5" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="84" id="9Re-vK-zIH"/>
+                                            <constraint firstAttribute="height" constant="21" id="Kd2-rs-KaV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Elp-os-H5J" secondAttribute="trailing" constant="20" id="WeT-nC-Wj8"/>
+                    <constraint firstItem="Elp-os-H5J" firstAttribute="top" secondItem="KWM-6u-igF" secondAttribute="top" constant="4" id="YWd-ue-8qg"/>
+                    <constraint firstItem="Elp-os-H5J" firstAttribute="leading" secondItem="KWM-6u-igF" secondAttribute="leading" constant="10" id="oSc-ab-AXA"/>
+                    <constraint firstAttribute="bottom" secondItem="Elp-os-H5J" secondAttribute="bottom" constant="26" id="vjM-AH-z5i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="nIs-DQ-nb2"/>
+            <connections>
+                <outlet property="commercialbuilding" destination="ZU5-2e-lrZ" id="VAl-SW-gv6"/>
+                <outlet property="coworkingspace" destination="m1j-GO-flW" id="v6j-j2-ECb"/>
+                <outlet property="industrialbuilding" destination="A5A-Ss-YVa" id="D5X-Us-WQs"/>
+                <outlet property="officespace" destination="Q5w-VQ-h12" id="Tni-K6-VaU"/>
+                <outlet property="standaloneland" destination="E7y-xQ-6bq" id="yMa-0F-tqA"/>
+                <outlet property="warehouse" destination="ioq-1q-9oL" id="iQv-pl-ftg"/>
+            </connections>
+            <point key="canvasLocation" x="-71.014492753623188" y="66.964285714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkbox_selected" width="20" height="20"/>
+        <image name="checkbox_unselected" width="20" height="20"/>
+    </resources>
+</document>

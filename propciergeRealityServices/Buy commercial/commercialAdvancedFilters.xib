@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="commercialAdvancedFilters" rowHeight="398" id="ogm-jM-HlR" customClass="commercialAdvancedFilters" customModule="propciergeRealityServices" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="398"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ogm-jM-HlR" id="PvF-hS-zYB">
+                <rect key="frame" x="0.0" y="0.0" width="416" height="398"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="AhQ-m9-ANr">
+                        <rect key="frame" x="10" y="27" width="401" height="336"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M6B-09-bHD">
+                                <rect key="frame" x="0.0" y="0.0" width="83.5" height="23.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amenties" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QK4-bN-kOR">
+                                        <rect key="frame" x="0.0" y="0.0" width="83.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="FtH-hQ-r91">
+                                <rect key="frame" x="0.0" y="47.5" width="361.5" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeQ-vq-Pcq">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nv-OX-VLP">
+                                        <rect key="frame" x="32" y="0.0" width="54.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7up-xg-knM">
+                                        <rect key="frame" x="98.5" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cafeteria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnZ-ww-tQ4">
+                                        <rect key="frame" x="130.5" y="0.0" width="66" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jd-v7-h5A">
+                                        <rect key="frame" x="208.5" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYe-X8-jyD">
+                                        <rect key="frame" x="240.5" y="0.0" width="23.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72E-1o-mdP">
+                                        <rect key="frame" x="276" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncM-x2-ESQ">
+                                        <rect key="frame" x="308" y="0.0" width="53.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="I7b-ok-sIO">
+                                <rect key="frame" x="0.0" y="93.5" width="368" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vex-1j-LHy">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Security" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tdc-Jp-wA9">
+                                        <rect key="frame" x="26" y="0.0" width="60" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNU-zY-Ibb">
+                                        <rect key="frame" x="92" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power Backup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agn-6V-eZJ">
+                                        <rect key="frame" x="118" y="0.0" width="103.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ota-ug-KLN">
+                                        <rect key="frame" x="227.5" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RERA Approved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzA-aN-HZr">
+                                        <rect key="frame" x="253.5" y="0.0" width="114.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Za2-Bj-5h9">
+                                <rect key="frame" x="0.0" y="139.5" width="93.5" height="23.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furnishing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvc-m7-gsg">
+                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="sHW-zD-aMW">
+                                <rect key="frame" x="0.0" y="187" width="319.5" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKs-49-SMI">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2q-2u-tyh">
+                                        <rect key="frame" x="48" y="0.0" width="25.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogX-jU-Xvh">
+                                        <rect key="frame" x="101.5" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Semi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kap-eT-gNT">
+                                        <rect key="frame" x="149.5" y="0.0" width="36" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPy-pm-6NF">
+                                        <rect key="frame" x="213.5" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Partially" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biG-SA-cfz">
+                                        <rect key="frame" x="261.5" y="0.0" width="58" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yjY-aY-v1O">
+                                <rect key="frame" x="0.0" y="233" width="117.5" height="23.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9B-y6-Ic8">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="U37-03-vhj">
+                                <rect key="frame" x="0.0" y="280.5" width="251.5" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHK-F2-xQn">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Immediate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLI-gF-9kw">
+                                        <rect key="frame" x="30" y="0.0" width="76" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXF-zN-AKe">
+                                        <rect key="frame" x="116" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Within 15 days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIB-2Z-T8L">
+                                        <rect key="frame" x="146" y="0.0" width="105.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JeN-Cm-eBx">
+                                <rect key="frame" x="0.0" y="314" width="275.5" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySn-eN-YFX">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Within 30 days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WhK-NF-3r8">
+                                        <rect key="frame" x="30" y="0.0" width="108" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ow-Ol-6D2">
+                                        <rect key="frame" x="148" y="0.0" width="20" height="22"/>
+                                        <state key="normal" image="checkbox_unselected"/>
+                                        <state key="selected" image="checkbox_selected"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="After 30 days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjd-B3-zNW">
+                                        <rect key="frame" x="178" y="0.0" width="97.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sHW-zD-aMW" firstAttribute="top" secondItem="Za2-Bj-5h9" secondAttribute="bottom" constant="24" id="2Mr-Dt-CBp"/>
+                            <constraint firstItem="FtH-hQ-r91" firstAttribute="top" secondItem="M6B-09-bHD" secondAttribute="bottom" constant="24" id="9ap-Gx-Ljq"/>
+                            <constraint firstItem="U37-03-vhj" firstAttribute="top" secondItem="yjY-aY-v1O" secondAttribute="bottom" constant="24" id="D99-hw-J3M"/>
+                            <constraint firstItem="Za2-Bj-5h9" firstAttribute="top" secondItem="I7b-ok-sIO" secondAttribute="bottom" constant="24" id="JdR-5z-fZk"/>
+                            <constraint firstItem="I7b-ok-sIO" firstAttribute="top" secondItem="FtH-hQ-r91" secondAttribute="bottom" constant="24" id="Oil-uj-fTC"/>
+                            <constraint firstItem="yjY-aY-v1O" firstAttribute="top" secondItem="sHW-zD-aMW" secondAttribute="bottom" constant="24" id="U5N-ds-zdN"/>
+                            <constraint firstItem="M6B-09-bHD" firstAttribute="top" secondItem="AhQ-m9-ANr" secondAttribute="top" id="fcf-x9-vzY"/>
+                            <constraint firstItem="JeN-Cm-eBx" firstAttribute="top" secondItem="U37-03-vhj" secondAttribute="bottom" constant="24" id="sqV-lN-gWF"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AhQ-m9-ANr" firstAttribute="leading" secondItem="PvF-hS-zYB" secondAttribute="leading" constant="10" id="3sL-8y-lHv"/>
+                    <constraint firstAttribute="trailing" secondItem="AhQ-m9-ANr" secondAttribute="trailing" constant="5" id="HHC-x6-Nne"/>
+                    <constraint firstAttribute="bottom" secondItem="AhQ-m9-ANr" secondAttribute="bottom" constant="35" id="QVW-cf-XOB"/>
+                    <constraint firstItem="AhQ-m9-ANr" firstAttribute="leading" secondItem="PvF-hS-zYB" secondAttribute="leading" constant="10" id="Zf6-fM-Ecg"/>
+                    <constraint firstItem="AhQ-m9-ANr" firstAttribute="top" secondItem="PvF-hS-zYB" secondAttribute="top" constant="27" id="qQb-PV-57r"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="XEQ-CW-doI"/>
+            <connections>
+                <outlet property="afterthirtydays" destination="7ow-Ol-6D2" id="Jto-sM-uZz"/>
+                <outlet property="cafeteria" destination="7up-xg-knM" id="PdB-n9-F3M"/>
+                <outlet property="cfullfurnished" destination="AKs-49-SMI" id="Vts-Wm-M8z"/>
+                <outlet property="clift" destination="4Jd-v7-h5A" id="Vvg-jn-Y38"/>
+                <outlet property="cparking" destination="QeQ-vq-Pcq" id="GwU-6u-LSJ"/>
+                <outlet property="cpartiallyfurnished" destination="UPy-pm-6NF" id="7EN-cg-tIL"/>
+                <outlet property="csemifurniched" destination="ogX-jU-Xvh" id="kcU-pW-Bms"/>
+                <outlet property="garden" destination="72E-1o-mdP" id="KPE-4J-VXo"/>
+                <outlet property="immediate" destination="SHK-F2-xQn" id="uH2-Vw-sfO"/>
+                <outlet property="powerbackup" destination="BNU-zY-Ibb" id="mCe-s0-Fz2"/>
+                <outlet property="rera" destination="ota-ug-KLN" id="GZy-KY-JeN"/>
+                <outlet property="security" destination="Vex-1j-LHy" id="ZF6-6S-x9t"/>
+                <outlet property="withinfifteendays" destination="bXF-zN-AKe" id="yyA-0P-0iR"/>
+                <outlet property="withinthirtydays" destination="ySn-eN-YFX" id="oNT-vW-Xo0"/>
+            </connections>
+            <point key="canvasLocation" x="-144.92753623188406" y="-12.723214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkbox_selected" width="20" height="20"/>
+        <image name="checkbox_unselected" width="20" height="20"/>
+    </resources>
+</document>

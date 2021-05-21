@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BuiltupareaCell" rowHeight="98" id="ORv-un-gel" customClass="BuiltupareaCell" customModule="propciergeRealityServices" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ORv-un-gel" id="gaM-B1-Yb2">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="t0c-Ex-fwr">
+                        <rect key="frame" x="10" y="4" width="404" height="84"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ijz-xR-bY6">
+                                <rect key="frame" x="0.0" y="0.0" width="168.5" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVm-CU-DfA">
+                                        <rect key="frame" x="0.0" y="0.0" width="168.5" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="GKi-ua-MJM"/>
+                                            <constraint firstAttribute="width" constant="168.5" id="qFN-Sl-gfh"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Built Up Area(sq.ft)">
+                                                <attributes>
+                                                    <font key="NSFont" size="20" name="SFProDisplay-Semibold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="2xq-4L-izY">
+                                <rect key="frame" x="0.0" y="46" width="376" height="38"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efL-0c-f15">
+                                        <rect key="frame" x="0.0" y="0.0" width="185" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="185" id="SY7-w4-Azb"/>
+                                            <constraint firstAttribute="height" constant="38" id="wa7-I6-kBp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <inset key="titleEdgeInsets" minX="-115" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="160" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="0" image="down_arrow">
+                                            <color key="titleColor" red="0.67071039990000003" green="0.67071039990000003" blue="0.67071039990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Na8-ar-BwW">
+                                        <rect key="frame" x="191" y="0.0" width="185" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="jbR-UK-0GR"/>
+                                            <constraint firstAttribute="width" constant="185" id="sjs-eO-asM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <inset key="titleEdgeInsets" minX="-115" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="160" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="10000" image="down_arrow">
+                                            <color key="titleColor" red="0.67071039990000003" green="0.67071039990000003" blue="0.67071039990000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="t0c-Ex-fwr" secondAttribute="trailing" id="5sw-NG-pXq"/>
+                    <constraint firstItem="t0c-Ex-fwr" firstAttribute="leading" secondItem="gaM-B1-Yb2" secondAttribute="leading" constant="10" id="B6g-Js-Xbi"/>
+                    <constraint firstAttribute="bottom" secondItem="t0c-Ex-fwr" secondAttribute="bottom" constant="10" id="SHS-99-fne"/>
+                    <constraint firstItem="t0c-Ex-fwr" firstAttribute="top" secondItem="gaM-B1-Yb2" secondAttribute="topMargin" constant="-7" id="cyn-mJ-l4c"/>
+                    <constraint firstItem="t0c-Ex-fwr" firstAttribute="top" secondItem="gaM-B1-Yb2" secondAttribute="top" constant="4" id="s3z-CW-Xaq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="ENq-Xf-kc4"/>
+            <connections>
+                <outlet property="maxAmtBtn" destination="Na8-ar-BwW" id="D0j-YM-j6y"/>
+                <outlet property="minAmtBtn" destination="efL-0c-f15" id="4ra-c5-Ypl"/>
+            </connections>
+            <point key="canvasLocation" x="82.608695652173921" y="75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="down_arrow" width="20" height="20"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
