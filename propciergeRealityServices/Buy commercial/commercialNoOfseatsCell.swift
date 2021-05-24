@@ -33,6 +33,9 @@ class commercialNoOfseatsCell: UITableViewCell,UIPickerViewDataSource, UIPickerV
         maxseats.layer.cornerRadius = 4
         selectedBackgroundView?.isHidden = true
         
+        minseats.setUpImage(imageName: "down_arrow", on: .right)
+        maxseats.setUpImage(imageName: "down_arrow", on: .right)
+        
         
         var pickerView = UIPickerView()
         pickerView.delegate = self

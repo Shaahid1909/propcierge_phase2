@@ -18,6 +18,10 @@ class searchview: UIViewController,UITableViewDelegate,UITableViewDataSource {
         setableview.delegate = self
         setableview.dataSource = self
     }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

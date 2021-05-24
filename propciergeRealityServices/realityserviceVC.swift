@@ -32,6 +32,13 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
     
     
     var realityservice = [Property]()
+    
+    var propnearyou = [Propertynearyou]()
+  
+  
+
+    
+    
     var selected_index = 0
     @IBOutlet weak var tabView: UITableView!
     
@@ -45,6 +52,8 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
         tabView.dataSource = self
         tabView.rowHeight = UITableView.automaticDimension
         makeGetCall()
+        GetCallforpropertynearyou()
+      
       //  downloadItems()
  //-->Buy residential nib
  
@@ -82,12 +91,14 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
         tabView.register(UINib(nibName: "propertiesnearmecell", bundle: nil), forCellReuseIdentifier: "propertiesnearmecell")
         
         
+        tabView.register(UINib(nibName: "propertiesnearyoutitle", bundle: nil), forCellReuseIdentifier: "propertiesnearyoutitle")
+        
         
     }
     
    func numberOfSections(in tableView: UITableView) -> Int {
     if selected_index == 0{
-        return 4
+        return 5
     }else if selected_index == 1 || selected_index == 6 || selected_index == 7{  //-->Buy section
         return 11
     }else if selected_index == 2 || selected_index == 15{ //---> Rent Section
@@ -116,7 +127,9 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             case 0: return 1
             case 1: return 1
             case 2: return 1
-            default: return 6
+            case 3: return 1
+            case 4: return propnearyou.count
+            default: return 0
     }
     } else  if selected_index == 1 || selected_index == 6 || selected_index == 7{ //---> Buy
         switch section {
@@ -326,12 +339,31 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             popularPicksCell.popularPicksCollectionView.delegate = self
             popularPicksCell.popularPicksCollectionView.reloadData()
             return popularPicksCell
-        }else if indexPath.section == 3{
+        }
+    if indexPath.section == 3 {
+        let titlecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearyoutitle", for: indexPath) as! propertiesnearyoutitle
+     
+        return titlecell
+        }else if indexPath.section == 4{
             let propertyCell = tableView.dequeueReusableCell(withIdentifier: "PropertyTableCell", for: indexPath) as! PropertyTableCell
-//            propertyCell.nameLabel.text = "Property Name"
-//            propertyCell.priceLabel.text = "Price"
-//            propertyCell.smallDescriptionLabel.text = "Small Description"
-//            propertyCell.typeSpecificationLabel.text = "Type"
+   
+            propertyCell.nameLabel.text = propnearyou[indexPath.row].name
+            propertyCell.priceLabel.text = propnearyou[indexPath.row].price
+            propertyCell.cityname.text = "\(propnearyou[indexPath.row].city)|"
+            propertyCell.bhkcount.text = "\(propnearyou[indexPath.row].bhkcount)BHK|"
+            propertyCell.sqftsize.text = "\(propnearyou[indexPath.row].sqftsize) sq.ft"
+         //   popularPicksCell.typeSpecificationLabel.text = "asdasd"      ///realityservice[indexPath.row].type
+         //   popularPicksCell.banner.image = UIImage(named: "\(realityservice[indexPath.row].images)")
+            
+            let bannerImaGE = propnearyou[indexPath.row].images
+
+            if let imageURL = URL(string: bannerImaGE) {
+                       print(imageURL)
+                       if let data = try? Data(contentsOf: imageURL) {
+                           print(data)
+                        propertyCell.banner.image = UIImage(data: data)
+                       }
+                   }
       
             return propertyCell
         }
@@ -347,6 +379,9 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             }
             if indexPath.section == 2 {
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
+                propertiesnearmecell.propnearmebtn.tag = indexPath.row
+                propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
+                
                 return propertiesnearmecell
             }
             
@@ -424,6 +459,9 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             }
             if indexPath.section == 2 {
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
+                propertiesnearmecell.propnearmebtn.tag = indexPath.row
+                propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
+                
                 return propertiesnearmecell
             }
                       else if indexPath.section == 3{
@@ -499,6 +537,10 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             }
             if indexPath.section == 2 {
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
+                
+                propertiesnearmecell.propnearmebtn.tag = indexPath.row
+                propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
+                
                 return propertiesnearmecell
             }else if indexPath.section == 3{
                     let typecell = tableView.dequeueReusableCell(withIdentifier: "TypeRadioCell", for: indexPath) as! TypeRadioCell
@@ -562,6 +604,10 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             }
             if indexPath.section == 2 {
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
+                
+                propertiesnearmecell.propnearmebtn.tag = indexPath.row
+                propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
+                
                 return propertiesnearmecell
             }else if indexPath.section == 3{
                             let typecell = tableView.dequeueReusableCell(withIdentifier: "TypeRadioCell", for: indexPath) as! TypeRadioCell
@@ -649,6 +695,9 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             }
             if indexPath.section == 2 {
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
+                propertiesnearmecell.propnearmebtn.tag = indexPath.row
+                propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
+                
                 return propertiesnearmecell
             }else if indexPath.section == 3{
             let typecell = tableView.dequeueReusableCell(withIdentifier: "TypeRadioCell", for: indexPath) as! TypeRadioCell
@@ -728,6 +777,9 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             }
             if indexPath.section == 2 {
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
+                propertiesnearmecell.propnearmebtn.tag = indexPath.row
+                propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
+                
                 return propertiesnearmecell
             }
         else if indexPath.section == 3{
@@ -751,6 +803,9 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             }
             if indexPath.section == 2 {
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
+                propertiesnearmecell.propnearmebtn.tag = indexPath.row
+                propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
+                
                 return propertiesnearmecell
             }else if indexPath.section == 3{
             let typecell = tableView.dequeueReusableCell(withIdentifier: "TypeRadioCell", for: indexPath) as! TypeRadioCell
@@ -825,7 +880,10 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             }
             if indexPath.section == 2 {
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
+                propertiesnearmecell.propnearmebtn.tag = indexPath.row
+                propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
                 return propertiesnearmecell
+                
             }else if indexPath.section == 3{
                 let typecell = tableView.dequeueReusableCell(withIdentifier: "TypeRadioCell", for: indexPath) as! TypeRadioCell
                 typecell.typecontrol = self
@@ -1816,12 +1874,29 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
       }
     
     
+    
+    
     ///---->Search button tapped
 
     
     @objc func searchbtn(sender:UIButton) {
           performSegue(withIdentifier: "searchtapped", sender: self)
       }
+    
+    
+    
+    
+    
+    @objc func propnearmentapped(sender:UIButton) {
+        if sender.isSelected {
+            sender.isSelected = false
+           
+        } else {
+            sender.isSelected = true
+          
+        }
+  
+    }
     
 //    func downloadItems() {
 //
@@ -1962,6 +2037,91 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
     task.resume()
     }
 
+    
+    func GetCallforpropertynearyou() {
+      // Set up the URL request
+      let urlstring: String = "https://propcierge.in/stage/api/version_reality/reality_details.php"
+      guard let url = URL(string: urlstring) else {
+        print("Error: cannot create URL")
+        return
+      }
+      let urlRequest = URLRequest(url: url)
+
+      // set up the session
+      let config = URLSessionConfiguration.default
+      let session = URLSession(configuration: config)
+
+      // make the request
+      let task = session.dataTask(with: urlRequest) {
+        (data, response, error) in
+        // check for any errors
+        guard error == nil else {
+          print("error calling GET")
+          print(error!)
+          return
+        }
+        // make sure we got data
+        guard let responseData = data else {
+          print("Error: did not receive data")
+          return
+        }
+        // parse the result as JSON, since that's what the API provides
+        do {
+          guard let jsonElement = try JSONSerialization.jsonObject(with: responseData, options:JSONSerialization.ReadingOptions.allowFragments) as? [String: Any]
+          else {
+              print("error trying to convert data to JSON")
+
+              return
+      
+          }
+            let real = jsonElement["reality_details"] as! [[String:Any]]
+            
+                        for i in real{
+                            print("the new real : \(i["owner_name"] as! String)")
+                            let title = i["title"] as! String
+                            let amount = i["amount"] as! String
+                            let reality_type = i["reality_type"] as! String
+                            let flatType = i["type"] as! String
+                            let sqft = i["sq_ft"] as! String
+                            let furnishtype = i["furnising_type"] as! String
+                            let bhk_count = i["bhk_count"] as! String
+                          let city = i["city"] as! String
+       // var imageresult: String!
+                            
+                            let photo = i["photos"] as! [[String:Any]]
+                            for j in photo{
+                                let img = j["url"] as! String
+                                           
+                   
+                self.propnearyou.append(Propertynearyou(name: title , price: amount, images: img, type: reality_type, flatType: flatType, city: city, bhkcount: bhk_count,sqftsize: sqft, finishType: furnishtype))
+                                
+                    print("The reality service is\(self.propnearyou)")
+                                     
+                
+                                
+                            }
+                            
+
+                        }
+        
+        DispatchQueue.main.async(execute: { [self] () -> Void in
+                tabView.reloadData()
+                
+            })
+
+        
+      }catch  {
+          print("error trying to convert data to JSON")
+          return
+        }
+      }
+      
+    task.resume()
+    }
+
+   
+ 
+    
     }
 
 struct Property {
@@ -1978,4 +2138,35 @@ struct Property {
   
     //1. Semi Furnished || 2. Fully Furnished
   //For Description Page
+}
+
+struct Propertynearyou {
+  let name:String
+  let price:String
+  let images: String
+  let type:String// 1. For Rent || 2. For Sale
+  let flatType:String //1. 1BHK || 2. 2BHK || 3. 3BHK
+  let city:String
+    let bhkcount: String
+  let sqftsize:String //Size in sq.ft
+//  var isWishlisted:Bool = false
+  let finishType:String
+  
+    //1. Semi Furnished || 2. Fully Furnished
+  //For Description Page
+}
+
+extension Array
+{
+    func filterDuplicate(_ keyValue:((AnyHashable...)->AnyHashable,Element)->AnyHashable) -> [Element]
+    {
+        func makeHash(_ params:AnyHashable ...) -> AnyHashable
+        {
+           var hash = Hasher()
+           params.forEach{ hash.combine($0) }
+           return hash.finalize()
+        }
+        var uniqueKeys = Set<AnyHashable>()
+        return filter{uniqueKeys.insert(keyValue(makeHash,$0)).inserted}
+    }
 }

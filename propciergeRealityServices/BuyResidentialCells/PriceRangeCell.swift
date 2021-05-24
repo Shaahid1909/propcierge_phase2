@@ -29,7 +29,8 @@ class PriceRangeCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDelega
         maxAmtBtn.layer.borderColor = UIColor.lightGray.cgColor
         maxAmtBtn.layer.cornerRadius = 4
         selectedBackgroundView?.isHidden = true
-        
+        minAmtBtn.setUpImage(imageName: "down_arrow", on: .right)
+        maxAmtBtn.setUpImage(imageName: "down_arrow", on: .right)
         var pickerView = UIPickerView()
                 pickerView.delegate = self
                 pickerView.dataSource = self

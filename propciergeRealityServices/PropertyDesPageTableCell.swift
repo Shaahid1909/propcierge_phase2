@@ -9,6 +9,15 @@ import UIKit
 
 class PropertyDesPageTableCell: UITableViewCell {
 
+    @IBOutlet weak var propname: UILabel!
+    @IBOutlet weak var proplocality: UILabel!
+    @IBOutlet weak var propposteddate: UILabel!
+    @IBOutlet weak var propbhkcount: UILabel!
+    @IBOutlet weak var propsqft: UILabel!
+    @IBOutlet weak var proptype: UILabel!
+    @IBOutlet weak var propprice: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -23,6 +32,8 @@ class PropertyDesPageTableCell: UITableViewCell {
 }
 class PersonDetailsDescription: UITableViewCell {
 
+    @IBOutlet weak var ownerdescription: UITextView!
+    @IBOutlet weak var ownername: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -43,13 +54,16 @@ class detailscountCell: UITableViewCell {
     @IBOutlet weak var propertyidview: UIView!
     @IBOutlet weak var bedroomview: UIView!
     
+    @IBOutlet weak var bhkcount: UILabel!
+    @IBOutlet weak var bathroomcount: UILabel!
+    @IBOutlet weak var buildingtype: UILabel!
+    @IBOutlet weak var availability: UILabel!
+    @IBOutlet weak var propertyid: UILabel!
     
     
     override func awakeFromNib() {
         super.awakeFromNib()
        
-       
-        
         bathroomview.layer.borderWidth = 0.5
         bathroomview.layer.borderColor = #colorLiteral(red: 0.1018147841, green: 0.6851620674, blue: 0.9096405506, alpha: 1)
         bathroomview.layer.cornerRadius = 10
@@ -74,6 +88,7 @@ class detailscountCell: UITableViewCell {
     }
 
 }
+
 class AmentiesCell: UITableViewCell {
 
     override func awakeFromNib() {
@@ -134,5 +149,11 @@ class shareCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
+    
+    
+    
+    
 
 }

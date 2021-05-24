@@ -32,6 +32,8 @@ class BuiltupareaCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
         maxbuildarea.layer.cornerRadius = 4
         selectedBackgroundView?.isHidden = true
         
+        minbuildarea.setUpImage(imageName: "down_arrow", on: .right)
+        maxbuildarea.setUpImage(imageName: "down_arrow", on: .right)
         
         var pickerView = UIPickerView()
         pickerView.delegate = self

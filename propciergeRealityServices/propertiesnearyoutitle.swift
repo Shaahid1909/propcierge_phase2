@@ -1,21 +1,17 @@
 //
-//  sebarCell.swift
+//  propertiesnearyoutitle.swift
 //  propciergeRealityServices
 //
-//  Created by shaahid shamil on 19/05/21.
+//  Created by shaahid shamil on 21/05/21.
 //
 
 import UIKit
 
-class sebarCell: UITableViewCell {
+class propertiesnearyoutitle: UITableViewCell {
 
-    @IBOutlet weak var sebutton: UIImageView!
-    
-    @IBOutlet weak var searchfield: UITextField!
     override func awakeFromNib() {
         super.awakeFromNib()
-        searchfield.setUpImage(imageName: "search", on: .right)
-      
+        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

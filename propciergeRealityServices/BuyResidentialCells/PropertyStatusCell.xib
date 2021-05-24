@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -9,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PropertyStatusCell" rowHeight="95" id="uZJ-Bl-rxu" customClass="PropertyStatusCell" customModule="propciergeRealityServices" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PropertyStatusCell" rowHeight="95" id="uZJ-Bl-rxu" customClass="PropertyStatusCell" customModule="propciergeRealityServices" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="95"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uZJ-Bl-rxu" id="09f-od-kaj">
@@ -57,17 +58,17 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Under Construction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOn-Ma-Dar">
-                                        <rect key="frame" x="33" y="0.0" width="150" height="21"/>
+                                        <rect key="frame" x="33" y="0.0" width="166" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="VJi-cn-FvW"/>
-                                            <constraint firstAttribute="width" constant="150" id="oMl-ew-8E8"/>
+                                            <constraint firstAttribute="width" constant="166" id="oMl-ew-8E8"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYl-gf-Urf">
-                                        <rect key="frame" x="196" y="0.0" width="20" height="21"/>
+                                        <rect key="frame" x="212" y="0.0" width="20" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="B74-XR-kMa"/>
                                             <constraint firstAttribute="height" constant="21" id="ZvW-aN-ynD"/>
@@ -79,7 +80,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Launches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSq-a9-Y3L">
-                                        <rect key="frame" x="229" y="0.0" width="175" height="21"/>
+                                        <rect key="frame" x="245" y="0.0" width="159" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="0so-7I-KoB"/>
                                         </constraints>
@@ -89,6 +90,7 @@
                                     </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="YYl-gf-Urf" firstAttribute="leading" secondItem="DOn-Ma-Dar" secondAttribute="trailing" constant="13" id="M0P-VI-4nH"/>
                                     <constraint firstItem="wwY-6Y-rMo" firstAttribute="leading" secondItem="hBf-XX-2ro" secondAttribute="leading" id="sQ5-99-ONW"/>
                                     <constraint firstItem="DOn-Ma-Dar" firstAttribute="leading" secondItem="wwY-6Y-rMo" secondAttribute="trailing" constant="13" id="srb-8o-hW6"/>
                                 </constraints>

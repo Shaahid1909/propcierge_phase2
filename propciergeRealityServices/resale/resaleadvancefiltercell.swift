@@ -7,7 +7,7 @@
 
 import UIKit
 
-class resaleadvancefiltercell: UITableViewCell {
+class resaleadvancefiltercell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
 
     
     @IBOutlet weak var rparking: UIButton!
@@ -23,13 +23,25 @@ class resaleadvancefiltercell: UITableViewCell {
     @IBOutlet weak var rpipedgasbtn: UIButton!
     @IBOutlet weak var rfurnishingfullbtn: UIButton!
     @IBOutlet weak var rfurnishingsemibtn: UIButton!
-    @IBOutlet weak var rminrange: UIButton!
-    @IBOutlet weak var rmaxrange: UIButton!
+    
+    @IBOutlet weak var rminrange: UITextField!
+    
+    @IBOutlet weak var rmaxrange: UITextField!
+    
     @IBOutlet weak var lessthantwo: UIButton!
     @IBOutlet weak var lessthanthree: UIButton!
     @IBOutlet weak var lessthanfive: UIButton!
     @IBOutlet weak var lessthanthirty: UIButton!
     
+    
+    var itemSelected = ""
+
+  
+    weak var pickerView: UIPickerView?
+    
+    
+    let rmin = Array(600...1000).map { $0 }
+    let rmax = Array(1100...2000).map { $0 }
     
 
     override func awakeFromNib() {
@@ -41,12 +53,106 @@ class resaleadvancefiltercell: UITableViewCell {
         rmaxrange.layer.borderColor = UIColor.lightGray.cgColor
         rmaxrange.layer.cornerRadius = 4
         selectedBackgroundView?.isHidden = true
+        
+        rminrange.setUpImage(imageName: "down_arrow", on: .right)
+        rmaxrange.setUpImage(imageName: "down_arrow", on: .right)
+        
+        var pickerView = UIPickerView()
+        pickerView.delegate = self
+        pickerView.dataSource = self
+        
+     //   choosecitytext.inputView = pickerView
+        rminrange.delegate = self
+        rmaxrange.delegate = self
+        
+        let view = UIView()
+        pickerView = UIPickerView(frame: CGRect(x: 0, y: 200, width: view.frame.width, height: 200))
+        pickerView.backgroundColor = .white
+
+        pickerView.showsSelectionIndicator = true
+        pickerView.delegate = self
+        pickerView.dataSource = self
+
+        let toolBar = UIToolbar()
+        toolBar.barStyle = UIBarStyle.default
+        toolBar.isTranslucent = true
+        toolBar.tintColor = #colorLiteral(red: 0.2094888944, green: 0.6731480454, blue: 1, alpha: 1)
+        toolBar.sizeToFit()
+
+        let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItem.Style.done, target: self, action: #selector(self.donePicker))
+        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
+        let cancelButton = UIBarButtonItem(title: "Cancel", style: UIBarButtonItem.Style.plain, target: self, action: #selector(self.donePicker))
+
+        toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
+        toolBar.isUserInteractionEnabled = true
+
+        rmaxrange.inputView = pickerView
+        rmaxrange.inputAccessoryView = toolBar
+        rminrange.inputView = pickerView
+        rminrange.inputAccessoryView = toolBar
+        
+        
     }
+
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+          self.pickerView?.reloadAllComponents()
+  
+      }
+
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
+    @objc func donePicker() {
+        if rminrange.isFirstResponder{
+            rminrange.resignFirstResponder()
+        }else if rmaxrange.isFirstResponder{
+            rmaxrange.resignFirstResponder()
+        }
+    }
+
     
+    func deselectButton(button:UIButton) {
+        button.backgroundColor = .white
+        button.setTitleColor(.systemGray2, for: .normal)
+        button.layer.borderWidth = 0.5
+        button.layer.borderColor = UIColor.systemGray2.cgColor
+    }
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+           if rminrange.isFirstResponder{
+               return rmin.count
+           }else if rmaxrange.isFirstResponder{
+            return rmax.count
+           }
+           return 0
+       }
+
+       func numberOfComponents(in pickerView: UIPickerView) -> Int {
+           return 1
+       }
+
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        if rminrange.isFirstResponder{
+       //     print("The min amount is \(min[row])")
+            return "\(rmin[row])"
+            
+        }else if rmaxrange.isFirstResponder{
+         //   print("The min amount is \(max[row])")
+         return "\(rmax[row])"
+        }
+           return nil
+       }
+
+       func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+           if rminrange.isFirstResponder{
+               let itemselected = rmin[row]
+            rminrange.text = "\(itemselected)"
+           }
+           else if rmaxrange.isFirstResponder{
+            let itemselected = rmax[row]
+            rmaxrange.text = "\(itemselected)"
+
+           
+       }
+       }
 }

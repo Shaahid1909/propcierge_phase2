@@ -9,6 +9,10 @@ import UIKit
 
 class propertiesnearmecell: UITableViewCell {
 
+    @IBOutlet weak var propnearmebtn: UIButton!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

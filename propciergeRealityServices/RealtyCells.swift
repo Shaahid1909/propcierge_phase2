@@ -28,10 +28,11 @@ class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
         super.awakeFromNib()
         deselectButton(button: rentButton)
         deselectButton(button: buyButton)
-        choosecitytext.rightView = rdownArrow
-        localityField.rightView = searchbutton
+//        choosecitytext.rightView = rdownArrow
+//        localityField.rightView = searchbutton
      
-      
+        choosecitytext.setUpImage(imageName: "down_arrow", on: .right)
+        localityField.setUpImage(imageName: "search", on: .right)
         selectedBackgroundView?.isHidden = true
         
         var pickerView = UIPickerView()
@@ -166,12 +167,17 @@ class PropertyCollectionCell: UICollectionViewCell { //Section - 1 Collection Ce
 
 class PropertyTableCell: UITableViewCell { //Section - 2 Table Cell
     
+
     @IBOutlet weak var banner:UIImageView!
     @IBOutlet weak var nameLabel:UILabel!
     @IBOutlet weak var priceLabel:UILabel!
-    @IBOutlet weak var smallDescriptionLabel:UILabel!
-    @IBOutlet weak var typeSpecificationLabel:UILabel!
     @IBOutlet weak var propstatview: UIView!
+    @IBOutlet weak var bhkcount: UILabel!
+    @IBOutlet weak var cityname: UILabel!
+    @IBOutlet weak var sqftsize: UILabel!
+    
+    @IBOutlet weak var proptype: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -181,19 +187,32 @@ class PropertyTableCell: UITableViewCell { //Section - 2 Table Cell
    
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
+}
+enum TextFieldImageSide {
+    case left
+    case right
+}
 
-
+extension UITextField {
+    func setUpImage(imageName: String, on side: TextFieldImageSide) {
+        let imageView = UIImageView(frame: CGRect(x: 10, y: 5, width: 25, height: 25))
+        if let imageWithSystemName = UIImage(systemName: imageName) {
+            imageView.image = imageWithSystemName
+        } else {
+            imageView.image = UIImage(named: imageName)
+        }
+        
+        let imageContainerView = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 35))
+        imageContainerView.addSubview(imageView)
+        
+        switch side {
+        case .left:
+            leftView = imageContainerView
+            leftViewMode = .always
+        case .right:
+            rightView = imageContainerView
+            rightViewMode = .always
+        }
+    }
 }

@@ -33,6 +33,9 @@ class CommercialPriceRangeCell: UITableViewCell,UIPickerViewDataSource, UIPicker
         selectedBackgroundView?.isHidden = true
         
         
+        minpricerange.setUpImage(imageName: "down_arrow", on: .right)
+        maxpricerange.setUpImage(imageName: "down_arrow", on: .right)
+        
         var pickerView = UIPickerView()
         pickerView.delegate = self
         pickerView.dataSource = self

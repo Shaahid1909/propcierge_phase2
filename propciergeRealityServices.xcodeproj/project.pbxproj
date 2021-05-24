@@ -21,6 +21,8 @@
 		1807F85A2652789A0064939B /* resaleadvancefiltercell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1807F8582652789A0064939B /* resaleadvancefiltercell.xib */; };
 		1807F86026529A6E0064939B /* resaleadvbtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807F85E26529A6D0064939B /* resaleadvbtn.swift */; };
 		1807F86126529A6E0064939B /* resaleadvbtn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1807F85F26529A6D0064939B /* resaleadvbtn.xib */; };
+		1812F7A02658285A00D12C40 /* propertiesnearyoutitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812F79E2658285A00D12C40 /* propertiesnearyoutitle.swift */; };
+		1812F7A12658285A00D12C40 /* propertiesnearyoutitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1812F79F2658285A00D12C40 /* propertiesnearyoutitle.xib */; };
 		18244AE326513379002D4ED4 /* BuyComadvanceBtnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AE126513379002D4ED4 /* BuyComadvanceBtnCell.swift */; };
 		18244AE426513379002D4ED4 /* BuyComadvanceBtnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18244AE226513379002D4ED4 /* BuyComadvanceBtnCell.xib */; };
 		18244AEB26514E65002D4ED4 /* landCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AE926514E65002D4ED4 /* landCell.swift */; };
@@ -112,6 +114,8 @@
 		1807F8582652789A0064939B /* resaleadvancefiltercell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = resaleadvancefiltercell.xib; sourceTree = "<group>"; };
 		1807F85E26529A6D0064939B /* resaleadvbtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resaleadvbtn.swift; sourceTree = "<group>"; };
 		1807F85F26529A6D0064939B /* resaleadvbtn.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = resaleadvbtn.xib; sourceTree = "<group>"; };
+		1812F79E2658285A00D12C40 /* propertiesnearyoutitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propertiesnearyoutitle.swift; sourceTree = "<group>"; };
+		1812F79F2658285A00D12C40 /* propertiesnearyoutitle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = propertiesnearyoutitle.xib; sourceTree = "<group>"; };
 		18244AE126513379002D4ED4 /* BuyComadvanceBtnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyComadvanceBtnCell.swift; sourceTree = "<group>"; };
 		18244AE226513379002D4ED4 /* BuyComadvanceBtnCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyComadvanceBtnCell.xib; sourceTree = "<group>"; };
 		18244AE926514E65002D4ED4 /* landCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landCell.swift; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 				18244AFE2651995C002D4ED4 /* propertyDescriptionPageView.swift */,
 				18244AFF2651995C002D4ED4 /* PropertyDesPageTableCell.swift */,
 				18244B002651995C002D4ED4 /* prophotosCollCell.swift */,
+				1812F79E2658285A00D12C40 /* propertiesnearyoutitle.swift */,
+				1812F79F2658285A00D12C40 /* propertiesnearyoutitle.xib */,
 			);
 			path = propciergeRealityServices;
 			sourceTree = "<group>";
@@ -465,6 +471,7 @@
 				18244AEC26514E65002D4ED4 /* landCell.xib in Resources */,
 				1807F86126529A6E0064939B /* resaleadvbtn.xib in Resources */,
 				187577F92653911E00EB2DD7 /* logocell.xib in Resources */,
+				1812F7A12658285A00D12C40 /* propertiesnearyoutitle.xib in Resources */,
 				18D555B3265055B60004BE64 /* PropertyTypeCell.xib in Resources */,
 				18D555DE26506A8A0004BE64 /* commercialNoOfseatsCell.xib in Resources */,
 				18D555E026506A8A0004BE64 /* CommercialPriceRangeCell.xib in Resources */,
@@ -525,6 +532,7 @@
 				18244AF926519947002D4ED4 /* searchCollCell.swift in Sources */,
 				18244B012651995D002D4ED4 /* propertyDescriptionPageView.swift in Sources */,
 				1803A03326498DA200C23899 /* SceneDelegate.swift in Sources */,
+				1812F7A02658285A00D12C40 /* propertiesnearyoutitle.swift in Sources */,
 				1807F8592652789A0064939B /* resaleadvancefiltercell.swift in Sources */,
 				18D555EE265079D30004BE64 /* BuyResAdvancebtncell.swift in Sources */,
 				18D5559226500F800004BE64 /* RealtyCells.swift in Sources */,
