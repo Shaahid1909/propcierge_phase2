@@ -13,12 +13,12 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PriceRangeCell" rowHeight="92" id="Tj8-l2-Jey" customClass="PriceRangeCell" customModule="propciergeRealityServices" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tj8-l2-Jey" id="rcj-2D-Y0U">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="Tj8-l2-Jey" id="rcj-2D-Y0U">
                 <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="fT3-Ej-3GD">
-                        <rect key="frame" x="10" y="5" width="358" height="73.5"/>
+                        <rect key="frame" x="10" y="5" width="388" height="73.5"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QHg-Yd-KjD">
                                 <rect key="frame" x="0.0" y="0.0" width="131" height="23.5"/>
@@ -41,42 +41,41 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="r0F-4A-Xky">
-                                <rect key="frame" x="0.0" y="39.5" width="358" height="34"/>
+                                <rect key="frame" x="0.0" y="39.5" width="380" height="34"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Min Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xtv-IB-Sft">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="185" height="34"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="175" id="1tN-N1-mUN"/>
+                                            <constraint firstAttribute="width" constant="185" id="KOA-ko-Ajz"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Max Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="boH-nq-wWY">
-                                        <rect key="frame" x="183" y="0.0" width="175" height="34"/>
+                                        <rect key="frame" x="195" y="0.0" width="185" height="34"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="175" id="ckp-EO-2LK"/>
+                                            <constraint firstAttribute="width" constant="185" id="0eG-rm-Uq7"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="358" id="6X1-dM-Ts8"/>
-                                    <constraint firstItem="boH-nq-wWY" firstAttribute="leading" secondItem="Xtv-IB-Sft" secondAttribute="trailing" constant="8" symbolic="YES" id="ZFM-Q6-A5k"/>
+                                    <constraint firstItem="boH-nq-wWY" firstAttribute="leading" secondItem="Xtv-IB-Sft" secondAttribute="trailing" constant="10" id="gZw-aP-hha"/>
                                     <constraint firstItem="Xtv-IB-Sft" firstAttribute="leading" secondItem="r0F-4A-Xky" secondAttribute="leading" id="h6R-Xc-AWg"/>
                                     <constraint firstAttribute="trailing" secondItem="boH-nq-wWY" secondAttribute="trailing" id="uaN-96-Kd0"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="r0F-4A-Xky" secondAttribute="trailing" id="9sl-Gt-rr9"/>
                             <constraint firstItem="r0F-4A-Xky" firstAttribute="leading" secondItem="fT3-Ej-3GD" secondAttribute="leading" id="Zbb-Cv-OXR"/>
+                            <constraint firstAttribute="width" constant="388" id="vrQ-Wr-1bR"/>
                         </constraints>
                     </stackView>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="trailing" secondItem="fT3-Ej-3GD" secondAttribute="trailing" constant="10" id="0ti-hz-UDm"/>
                     <constraint firstItem="fT3-Ej-3GD" firstAttribute="top" secondItem="rcj-2D-Y0U" secondAttribute="top" constant="5" id="2ak-sG-3XY"/>
-                    <constraint firstAttribute="trailing" secondItem="fT3-Ej-3GD" secondAttribute="trailing" id="M7n-D6-TrP"/>
                     <constraint firstItem="fT3-Ej-3GD" firstAttribute="leading" secondItem="rcj-2D-Y0U" secondAttribute="leading" constant="10" id="OQG-l0-QgB"/>
                     <constraint firstAttribute="bottom" secondItem="fT3-Ej-3GD" secondAttribute="bottom" constant="13.5" id="tRO-GO-xeG"/>
                 </constraints>

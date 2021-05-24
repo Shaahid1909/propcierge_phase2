@@ -36,7 +36,7 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
     var propnearyou = [Propertynearyou]()
   
   
-
+    @IBOutlet weak var propbarbutton: UIBarButtonItem!
     
     
     var selected_index = 0
@@ -985,12 +985,24 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
 
 
     func changeSegment(_ sender:UIButton){
+        propbarbutton.isEnabled = false
+        propbarbutton.tintColor = .clear
         selected_index = sender.tag
         if sender.tag == 1{
-            print("Clicked on Buy")
+            propbarbutton.isEnabled = false
+            propbarbutton.tintColor = .clear
+            propbarbutton.customView?.isHidden = true
+          sender.setTitle("BUY", for: .normal)
+          print("Clicked on Buy")
             tabView.reloadData()
+          
         }else if sender.tag == 2{
+            propbarbutton.isEnabled = false
+            propbarbutton.tintColor = .clear
+            propbarbutton.customView?.isHidden = true
+            sender.setTitle("RENT", for: .normal)
             tabView.reloadData()
+           
             print("Clicked on Rent")
         }
 //        tableView.reloadSections(IndexSet(integer: 1), with: .none)

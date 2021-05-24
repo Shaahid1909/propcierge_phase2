@@ -258,6 +258,7 @@
                                     <constraint firstItem="LTo-fx-KiJ" firstAttribute="leading" secondItem="lkJ-KV-iRe" secondAttribute="trailing" constant="15" id="F3n-ua-X1c"/>
                                     <constraint firstItem="EQC-as-Edu" firstAttribute="leading" secondItem="ZYx-Rc-mut" secondAttribute="trailing" constant="15" id="Rsg-jQ-2Rs"/>
                                     <constraint firstItem="lkJ-KV-iRe" firstAttribute="leading" secondItem="rg4-hF-hZa" secondAttribute="leading" id="m0o-GN-1J2"/>
+                                    <constraint firstAttribute="height" constant="22" id="v5r-Sz-R9d"/>
                                     <constraint firstItem="ZYx-Rc-mut" firstAttribute="leading" secondItem="LTo-fx-KiJ" secondAttribute="trailing" constant="15" id="yOo-YR-c1u"/>
                                 </constraints>
                             </stackView>
@@ -374,7 +375,7 @@
                                 <rect key="frame" x="0.0" y="431" width="118.5" height="23.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zv3-Rp-jBd">
-                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="23.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="23"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="23" id="1Tp-TB-Scu"/>
                                             <constraint firstAttribute="width" constant="118.5" id="9vh-p1-Ik0"/>
@@ -386,6 +387,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="zv3-Rp-jBd" secondAttribute="trailing" id="TVc-Kv-Zw8"/>
+                                    <constraint firstAttribute="height" constant="23.5" id="TX2-KN-JtI"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="1dd-am-IXJ">

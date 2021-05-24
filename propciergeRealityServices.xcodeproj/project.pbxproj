@@ -42,7 +42,6 @@
 		187578072653922700EB2DD7 /* propertiesnearmecell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187578052653922700EB2DD7 /* propertiesnearmecell.xib */; };
 		18D5558D26500B540004BE64 /* realityserviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5558C26500B540004BE64 /* realityserviceVC.swift */; };
 		18D5559226500F800004BE64 /* RealtyCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559126500F7F0004BE64 /* RealtyCells.swift */; };
-		18D5559726500F8C0004BE64 /* RealtyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559626500F8C0004BE64 /* RealtyModel.swift */; };
 		18D555A3265052BE0004BE64 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559C265052BD0004BE64 /* CategoryCell.swift */; };
 		18D555A4265052BF0004BE64 /* TypeRadioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559D265052BE0004BE64 /* TypeRadioCell.swift */; };
 		18D555A5265052BF0004BE64 /* PriceRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559E265052BE0004BE64 /* PriceRangeCell.swift */; };
@@ -135,7 +134,6 @@
 		187578052653922700EB2DD7 /* propertiesnearmecell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = propertiesnearmecell.xib; sourceTree = "<group>"; };
 		18D5558C26500B540004BE64 /* realityserviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realityserviceVC.swift; sourceTree = "<group>"; };
 		18D5559126500F7F0004BE64 /* RealtyCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtyCells.swift; sourceTree = "<group>"; };
-		18D5559626500F8C0004BE64 /* RealtyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtyModel.swift; sourceTree = "<group>"; };
 		18D5559C265052BD0004BE64 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		18D5559D265052BE0004BE64 /* TypeRadioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeRadioCell.swift; sourceTree = "<group>"; };
 		18D5559E265052BE0004BE64 /* PriceRangeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceRangeCell.swift; sourceTree = "<group>"; };
@@ -232,7 +230,6 @@
 				1803A03E26498DE700C23899 /* Info.plist */,
 				18D5558C26500B540004BE64 /* realityserviceVC.swift */,
 				18D5559126500F7F0004BE64 /* RealtyCells.swift */,
-				18D5559626500F8C0004BE64 /* RealtyModel.swift */,
 				18244AF726519946002D4ED4 /* searchCollCell.swift */,
 				18244AF826519947002D4ED4 /* SearchViewController.swift */,
 				18244AFE2651995C002D4ED4 /* propertyDescriptionPageView.swift */,
@@ -508,7 +505,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D555A6265052BF0004BE64 /* PropertyStatusCell.swift in Sources */,
-				18D5559726500F8C0004BE64 /* RealtyModel.swift in Sources */,
 				1803A03526498DA300C23899 /* ViewController.swift in Sources */,
 				1807F852265275C90064939B /* resalepropertystatus.swift in Sources */,
 				18244AE326513379002D4ED4 /* BuyComadvanceBtnCell.swift in Sources */,

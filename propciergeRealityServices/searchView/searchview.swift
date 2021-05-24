@@ -9,6 +9,7 @@ import UIKit
 
 class searchview: UIViewController,UITableViewDelegate,UITableViewDataSource {
    
+
     @IBOutlet weak var setableview: UITableView!
     
 
@@ -17,6 +18,9 @@ class searchview: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
         setableview.delegate = self
         setableview.dataSource = self
+        
+     
+        
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

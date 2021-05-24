@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="vec-Mh-Idn">
-                        <rect key="frame" x="10" y="4" width="394" height="75"/>
+                        <rect key="frame" x="10" y="4" width="399" height="75"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="I1U-rp-V4V">
                                 <rect key="frame" x="0.0" y="0.0" width="139.5" height="21"/>
@@ -42,7 +42,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="2FS-hp-xxl">
-                                <rect key="frame" x="0.0" y="54" width="366" height="21"/>
+                                <rect key="frame" x="0.0" y="54" width="382" height="21"/>
                                 <subviews>
                                     <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alx-se-ARf">
                                         <rect key="frame" x="0.0" y="0.0" width="20" height="21"/>
@@ -57,9 +57,9 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Under Construction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nay-8q-rUs">
-                                        <rect key="frame" x="33" y="0.0" width="150" height="21"/>
+                                        <rect key="frame" x="33" y="0.0" width="166" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="RZk-yU-Mi0"/>
+                                            <constraint firstAttribute="width" constant="166" id="RZk-yU-Mi0"/>
                                             <constraint firstAttribute="height" constant="21" id="fQd-X2-cuv"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -67,7 +67,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSS-Nf-ds9">
-                                        <rect key="frame" x="196" y="0.0" width="20" height="21"/>
+                                        <rect key="frame" x="212" y="0.0" width="20" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="X8t-UM-OaJ"/>
                                             <constraint firstAttribute="width" constant="20" id="sAQ-hh-uJZ"/>
@@ -79,7 +79,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready to move in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sg-MU-EVq">
-                                        <rect key="frame" x="229" y="0.0" width="137" height="21"/>
+                                        <rect key="frame" x="245" y="0.0" width="137" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="137" id="8FL-lX-ZV8"/>
                                             <constraint firstAttribute="height" constant="21" id="p1z-Fp-Ez8"/>
@@ -93,7 +93,6 @@
                                     <constraint firstItem="6sg-MU-EVq" firstAttribute="leading" secondItem="eSS-Nf-ds9" secondAttribute="trailing" constant="13" id="LvV-de-MQq"/>
                                     <constraint firstItem="alx-se-ARf" firstAttribute="leading" secondItem="2FS-hp-xxl" secondAttribute="leading" id="ehr-eJ-gog"/>
                                     <constraint firstItem="Nay-8q-rUs" firstAttribute="leading" secondItem="alx-se-ARf" secondAttribute="trailing" constant="13" id="ejX-UT-yK6"/>
-                                    <constraint firstItem="eSS-Nf-ds9" firstAttribute="leading" secondItem="Nay-8q-rUs" secondAttribute="trailing" constant="13" id="oNG-F6-4F8"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -103,7 +102,7 @@
                     <constraint firstItem="vec-Mh-Idn" firstAttribute="leading" secondItem="f6m-8E-eyQ" secondAttribute="leading" constant="10" id="4nu-R0-TjA"/>
                     <constraint firstItem="vec-Mh-Idn" firstAttribute="top" secondItem="f6m-8E-eyQ" secondAttribute="top" constant="4" id="gVC-Az-JZH"/>
                     <constraint firstAttribute="bottom" secondItem="vec-Mh-Idn" secondAttribute="bottom" constant="16" id="tpN-i5-3cj"/>
-                    <constraint firstAttribute="trailing" secondItem="vec-Mh-Idn" secondAttribute="trailing" constant="10" id="yIc-sp-Psf"/>
+                    <constraint firstAttribute="trailing" secondItem="vec-Mh-Idn" secondAttribute="trailing" constant="5" id="yIc-sp-Psf"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="I31-MS-0i8"/>
@@ -111,7 +110,7 @@
                 <outlet property="readytomoveBtn" destination="eSS-Nf-ds9" id="oOS-4n-hOo"/>
                 <outlet property="underconstructionBtn" destination="alx-se-ARf" id="Z1X-1R-TkH"/>
             </connections>
-            <point key="canvasLocation" x="42.028985507246382" y="83.370535714285708"/>
+            <point key="canvasLocation" x="41.25" y="83.125"/>
         </tableViewCell>
     </objects>
     <resources>

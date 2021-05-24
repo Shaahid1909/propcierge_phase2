@@ -27,7 +27,7 @@ class PropertyStatusCell: UITableViewCell {
   
         }else {
             sender.isSelected = true
-            newlaunch.isSelected = false
+            underconstructionBtn.isSelected = false
            
            
             print("under construction cell button tapped")

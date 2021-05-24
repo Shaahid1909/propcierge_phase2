@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Elp-os-H5J">
-                        <rect key="frame" x="10" y="4" width="384" height="154"/>
+                        <rect key="frame" x="10" y="4" width="394" height="154"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fb7-kn-tgR">
                                 <rect key="frame" x="0.0" y="0.0" width="157" height="21"/>
@@ -149,7 +149,7 @@
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="Elp-os-H5J" secondAttribute="trailing" constant="20" id="WeT-nC-Wj8"/>
+                    <constraint firstAttribute="trailing" secondItem="Elp-os-H5J" secondAttribute="trailing" constant="10" id="PAX-oo-Br3"/>
                     <constraint firstItem="Elp-os-H5J" firstAttribute="top" secondItem="KWM-6u-igF" secondAttribute="top" constant="4" id="YWd-ue-8qg"/>
                     <constraint firstItem="Elp-os-H5J" firstAttribute="leading" secondItem="KWM-6u-igF" secondAttribute="leading" constant="10" id="oSc-ab-AXA"/>
                     <constraint firstAttribute="bottom" secondItem="Elp-os-H5J" secondAttribute="bottom" constant="26" id="vjM-AH-z5i"/>

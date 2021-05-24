@@ -2,7 +2,7 @@
 import UIKit
 
 
-class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
+class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate  {
    
     //Section - 0
     
@@ -21,6 +21,7 @@ class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
     var itemSelected = ""
 
     weak var pickerView: UIPickerView?
+    let view = UIView()
 
     var city = ["Chennai", "Madurai", "Trichy", "Bangalore"]
     
@@ -30,7 +31,7 @@ class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
         deselectButton(button: buyButton)
 //        choosecitytext.rightView = rdownArrow
 //        localityField.rightView = searchbutton
-     
+        localityField.delegate = self
         choosecitytext.setUpImage(imageName: "down_arrow", on: .right)
         localityField.setUpImage(imageName: "search", on: .right)
         selectedBackgroundView?.isHidden = true
@@ -64,6 +65,8 @@ class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
 
         choosecitytext.inputView = pickerView
         choosecitytext.inputAccessoryView = toolBar
+        
+        HideKeyboard()
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
@@ -87,6 +90,7 @@ class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
         sender.backgroundColor = #colorLiteral(red: 0.1018147841, green: 0.6851620674, blue: 0.9096405506, alpha: 1)
         sender.setTitleColor(.white, for: .normal)
         sender.layer.borderWidth = 0.0
+        
     }
     
     func deselectButton(button:UIButton) {
@@ -94,6 +98,7 @@ class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
         button.setTitleColor(.systemGray2, for: .normal)
         button.layer.borderWidth = 0.5
         button.layer.borderColor = UIColor.systemGray2.cgColor
+        
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
            if choosecitytext.isFirstResponder{
@@ -123,6 +128,24 @@ class ActionTableCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
        }
     
        }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        localityField.resignFirstResponder()
+        return false
+    }
+    
+    
+    func HideKeyboard() {
+        let Tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self , action: #selector(DismissKeyboard))
+        view.addGestureRecognizer(Tap)
+    }
+ 
+  //-------DismissKeyboard
+    @objc func DismissKeyboard(){
+        view.endEditing(true)
+        
+    }
 
     
 }

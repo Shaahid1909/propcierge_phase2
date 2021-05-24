@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="rAT-aD-O5V">
-                        <rect key="frame" x="10" y="5" width="404" height="75.5"/>
+                        <rect key="frame" x="10" y="5" width="394" height="75.5"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hwe-go-vMe">
                                 <rect key="frame" x="0.0" y="0.0" width="131" height="19.5"/>
@@ -69,9 +69,9 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="rAT-aD-O5V" firstAttribute="leading" secondItem="xtU-Js-y6M" secondAttribute="leading" constant="10" id="Azh-kO-LUv"/>
-                    <constraint firstAttribute="trailing" secondItem="rAT-aD-O5V" secondAttribute="trailing" id="N9w-Jd-xGm"/>
                     <constraint firstItem="rAT-aD-O5V" firstAttribute="top" secondItem="xtU-Js-y6M" secondAttribute="top" constant="5" id="PSR-q0-1en"/>
                     <constraint firstAttribute="bottom" secondItem="rAT-aD-O5V" secondAttribute="bottom" constant="11.5" id="S5R-I0-z63"/>
+                    <constraint firstAttribute="trailing" secondItem="rAT-aD-O5V" secondAttribute="trailing" constant="10" id="gwp-e8-rU0"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="hYb-4c-PGn"/>
