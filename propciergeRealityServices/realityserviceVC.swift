@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ListPlaceholder
 
 protocol RealtyServicesDelegate {
     func changeSegment(_ sender:UIButton)
@@ -47,12 +48,18 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       tabView.layer.cornerRadius = 10.0
         tabView.tableFooterView = UIView()
         tabView.delegate = self
         tabView.dataSource = self
         tabView.rowHeight = UITableView.automaticDimension
         makeGetCall()
         GetCallforpropertynearyou()
+        self.showSpinner(onView: self.view)
+              
+              Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(realityserviceVC.removeLoader), userInfo: nil, repeats: false)
+                
+       
       
       //  downloadItems()
  //-->Buy residential nib
@@ -95,6 +102,11 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
         
         
     }
+    
+    @objc func removeLoader()
+        {
+        self.removeSpinner()
+        }
     
    func numberOfSections(in tableView: UITableView) -> Int {
     if selected_index == 0{
@@ -338,6 +350,7 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             popularPicksCell.popularPicksCollectionView.dataSource = self
             popularPicksCell.popularPicksCollectionView.delegate = self
             popularPicksCell.popularPicksCollectionView.reloadData()
+           
             return popularPicksCell
         }
     if indexPath.section == 3 {
@@ -346,11 +359,11 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
         return titlecell
         }else if indexPath.section == 4{
             let propertyCell = tableView.dequeueReusableCell(withIdentifier: "PropertyTableCell", for: indexPath) as! PropertyTableCell
-   
+     
             propertyCell.nameLabel.text = propnearyou[indexPath.row].name
-            propertyCell.priceLabel.text = propnearyou[indexPath.row].price
-            propertyCell.cityname.text = "\(propnearyou[indexPath.row].city)|"
-            propertyCell.bhkcount.text = "\(propnearyou[indexPath.row].bhkcount)BHK|"
+            propertyCell.priceLabel.text = "₹ \(propnearyou[indexPath.row].price)"
+            propertyCell.cityname.text = "\(propnearyou[indexPath.row].city) |"
+            propertyCell.bhkcount.text = "\(propnearyou[indexPath.row].bhkcount) BHK |"
             propertyCell.sqftsize.text = "\(propnearyou[indexPath.row].sqftsize) sq.ft"
          //   popularPicksCell.typeSpecificationLabel.text = "asdasd"      ///realityservice[indexPath.row].type
          //   popularPicksCell.banner.image = UIImage(named: "\(realityservice[indexPath.row].images)")
@@ -381,6 +394,7 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
                 let propertiesnearmecell = tableView.dequeueReusableCell(withIdentifier: "propertiesnearmecell", for: indexPath) as! propertiesnearmecell
                 propertiesnearmecell.propnearmebtn.tag = indexPath.row
                 propertiesnearmecell.propnearmebtn.addTarget(self, action: #selector(propnearmentapped(sender:)), for: .touchUpInside)
+                
                 
                 return propertiesnearmecell
             }
@@ -1000,7 +1014,7 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
             propbarbutton.isEnabled = false
             propbarbutton.tintColor = .clear
             propbarbutton.customView?.isHidden = true
-            sender.setTitle("RENT", for: .normal)
+         //   sender.setTitle("RENT", for: .normal)
             tabView.reloadData()
            
             print("Clicked on Rent")
@@ -1009,6 +1023,15 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
 //        tableView.reloadSections(IndexSet(integer: 2), with: .none)
     }
     
+    @IBAction func backButton(_ sender: UIButton) {
+        selected_index = sender.tag
+        if sender.tag == 0{
+            tabView.reloadData()
+        }
+        
+        
+        
+    }
     func typechangeSegment(_ sender:UIButton){
         selected_index = sender.tag
         if sender.tag == 3{
@@ -1079,9 +1102,9 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let popularPicksCell = collectionView.dequeueReusableCell(withReuseIdentifier: "PropertyCollectionCell", for: indexPath) as! PropertyCollectionCell
         popularPicksCell.nameLabel.text =  realityservice[indexPath.row].name
-        popularPicksCell.priceLabel.text = realityservice[indexPath.row].price
-        popularPicksCell.smallDescriptionLabel.text = "\(realityservice[indexPath.row].city)|"
-        popularPicksCell.bhkcount.text = "\(realityservice[indexPath.row].bhkcount)BHK|"
+        popularPicksCell.priceLabel.text = "₹ \(realityservice[indexPath.row].price)"
+        popularPicksCell.smallDescriptionLabel.text = "\(realityservice[indexPath.row].city) |"
+        popularPicksCell.bhkcount.text = "\(realityservice[indexPath.row].bhkcount) BHK |"
         popularPicksCell.sqftcount.text = "\(realityservice[indexPath.row].sqftsize) sq.ft"
      //   popularPicksCell.typeSpecificationLabel.text = "asdasd"      ///realityservice[indexPath.row].type
      //   popularPicksCell.banner.image = UIImage(named: "\(realityservice[indexPath.row].images)")

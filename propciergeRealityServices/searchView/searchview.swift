@@ -12,7 +12,11 @@ class searchview: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var setableview: UITableView!
     
-
+    @IBOutlet weak var bkBtn: UIButton!
+    
+    @IBAction func BackButtonTapped(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

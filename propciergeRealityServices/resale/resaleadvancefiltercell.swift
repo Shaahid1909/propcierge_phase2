@@ -40,9 +40,9 @@ class resaleadvancefiltercell: UITableViewCell,UIPickerViewDataSource, UIPickerV
     weak var pickerView: UIPickerView?
     
     
-    let rmin = Array(600...1000).map { $0 }
-    let rmax = Array(1100...2000).map { $0 }
-    
+ 
+    let rmin = [600,700,800,900,1000,1100]
+    let rmax = [600,700,800,900,1000,1100]
 
     override func awakeFromNib() {
         super.awakeFromNib()

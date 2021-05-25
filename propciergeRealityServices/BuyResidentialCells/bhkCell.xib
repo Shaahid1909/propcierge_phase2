@@ -7,6 +7,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -18,20 +23,21 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="rJb-D4-INe">
-                        <rect key="frame" x="10" y="4" width="399" height="117"/>
+                        <rect key="frame" x="10" y="4" width="410" height="117"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tdb-H2-kd9">
                                 <rect key="frame" x="3" y="0.0" width="41.5" height="21"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Db5-Vd-Fjg">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="63.5" height="21"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" constant="63.5" id="GUS-KX-d6j"/>
                                             <constraint firstAttribute="height" constant="21" id="HU6-j7-JTg"/>
                                         </constraints>
                                         <attributedString key="attributedText">
                                             <fragment content="BHK">
                                                 <attributes>
-                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="NSColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <font key="NSFont" size="20" name="SFProDisplay-Semibold"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
@@ -45,7 +51,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="vWd-jX-Ctr">
-                                <rect key="frame" x="3" y="48" width="391" height="21"/>
+                                <rect key="frame" x="3" y="48" width="402" height="21"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDk-32-5fg">
                                         <rect key="frame" x="0.0" y="0.0" width="20" height="21"/>
@@ -57,16 +63,16 @@
                                         <state key="selected" image="checkbox_selected"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1RK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUM-pC-U7E">
-                                        <rect key="frame" x="34" y="0.0" width="29" height="21"/>
+                                        <rect key="frame" x="34" y="0.0" width="37" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="29" id="ls9-iR-l4z"/>
+                                            <constraint firstAttribute="width" constant="37" id="ls9-iR-l4z"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vb5-10-MAg">
-                                        <rect key="frame" x="77" y="0.0" width="20" height="21"/>
+                                        <rect key="frame" x="85" y="0.0" width="20" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="suN-N6-vkD"/>
                                             <constraint firstAttribute="height" constant="21" id="ydO-E5-h1b"/>
@@ -75,16 +81,16 @@
                                         <state key="selected" image="checkbox_selected"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2BHK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bO-QV-0oZ">
-                                        <rect key="frame" x="111" y="0.0" width="43" height="21"/>
+                                        <rect key="frame" x="119" y="0.0" width="44" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="43" id="0gn-bD-W24"/>
+                                            <constraint firstAttribute="width" constant="44" id="0gn-bD-W24"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNt-KU-mSM">
-                                        <rect key="frame" x="168" y="0.0" width="20" height="21"/>
+                                        <rect key="frame" x="177" y="0.0" width="20" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="sdN-Tf-XYh"/>
                                             <constraint firstAttribute="width" constant="20" id="v0v-gr-pJA"/>
@@ -93,17 +99,17 @@
                                         <state key="selected" image="checkbox_selected"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.5BHK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYF-Z6-Q3U">
-                                        <rect key="frame" x="202" y="0.0" width="56" height="21"/>
+                                        <rect key="frame" x="211" y="0.0" width="58" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="56" id="Tl3-8Q-upd"/>
+                                            <constraint firstAttribute="width" constant="58" id="Tl3-8Q-upd"/>
                                             <constraint firstAttribute="height" constant="21" id="ZAG-2y-j5P"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDc-fb-8ST">
-                                        <rect key="frame" x="272" y="0.0" width="20" height="21"/>
+                                        <rect key="frame" x="283" y="0.0" width="20" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="DCv-48-Idz"/>
                                             <constraint firstAttribute="height" constant="21" id="Uks-NZ-Vcg"/>
@@ -112,13 +118,13 @@
                                         <state key="selected" image="checkbox_selected"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3BHK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFq-Lr-6au">
-                                        <rect key="frame" x="306" y="0.0" width="85" height="21"/>
+                                        <rect key="frame" x="317" y="0.0" width="85" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="YEn-ag-pHv"/>
                                             <constraint firstAttribute="width" constant="85" id="YZn-Qn-3dH"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -131,6 +137,7 @@
                                     <constraint firstItem="JUM-pC-U7E" firstAttribute="leading" secondItem="vDk-32-5fg" secondAttribute="trailing" constant="14" id="byx-nc-xxt"/>
                                     <constraint firstAttribute="trailing" secondItem="KFq-Lr-6au" secondAttribute="trailing" id="ch8-WJ-UqL"/>
                                     <constraint firstItem="KNt-KU-mSM" firstAttribute="leading" secondItem="2bO-QV-0oZ" secondAttribute="trailing" constant="14" id="x5c-AJ-vYR"/>
+                                    <constraint firstItem="2bO-QV-0oZ" firstAttribute="leading" secondItem="Vb5-10-MAg" secondAttribute="trailing" constant="14" id="zLt-hv-bQv"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Etv-0c-7jb">
@@ -151,8 +158,8 @@
                                             <constraint firstAttribute="width" constant="44" id="sNK-op-Lmt"/>
                                             <constraint firstAttribute="height" constant="21" id="zQD-r4-93A"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ax1-Tn-1Ui">
@@ -170,8 +177,8 @@
                                             <constraint firstAttribute="width" constant="44" id="J7O-OS-Zk4"/>
                                             <constraint firstAttribute="height" constant="21" id="NGq-vr-HGC"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>

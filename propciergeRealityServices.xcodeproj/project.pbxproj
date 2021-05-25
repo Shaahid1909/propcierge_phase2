@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091A94444DA4C0AA0A6FA122 /* Pods_propciergeRealityServicesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3167C2F924D793BA46FA9A8 /* Pods_propciergeRealityServicesTests.framework */; };
 		1803A03126498DA200C23899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A03026498DA200C23899 /* AppDelegate.swift */; };
 		1803A03326498DA200C23899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A03226498DA200C23899 /* SceneDelegate.swift */; };
 		1803A03526498DA300C23899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A03426498DA300C23899 /* ViewController.swift */; };
@@ -29,8 +30,6 @@
 		18244AEC26514E65002D4ED4 /* landCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18244AEA26514E65002D4ED4 /* landCell.xib */; };
 		18244AF226516948002D4ED4 /* ShareButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AF026516948002D4ED4 /* ShareButtonCell.swift */; };
 		18244AF326516948002D4ED4 /* ShareButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18244AF126516948002D4ED4 /* ShareButtonCell.xib */; };
-		18244AF926519947002D4ED4 /* searchCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AF726519946002D4ED4 /* searchCollCell.swift */; };
-		18244AFA26519947002D4ED4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AF826519947002D4ED4 /* SearchViewController.swift */; };
 		18244B012651995D002D4ED4 /* propertyDescriptionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AFE2651995C002D4ED4 /* propertyDescriptionPageView.swift */; };
 		18244B022651995D002D4ED4 /* PropertyDesPageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244AFF2651995C002D4ED4 /* PropertyDesPageTableCell.swift */; };
 		18244B032651995D002D4ED4 /* prophotosCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18244B002651995C002D4ED4 /* prophotosCollCell.swift */; };
@@ -40,6 +39,9 @@
 		18757800265391E700EB2DD7 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187577FE265391E700EB2DD7 /* TitleCell.xib */; };
 		187578062653922700EB2DD7 /* propertiesnearmecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187578042653922700EB2DD7 /* propertiesnearmecell.swift */; };
 		187578072653922700EB2DD7 /* propertiesnearmecell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187578052653922700EB2DD7 /* propertiesnearmecell.xib */; };
+		18950711265D38830076CB76 /* SF Pro Display in Resources */ = {isa = PBXBuildFile; fileRef = 18950710265D38800076CB76 /* SF Pro Display */; };
+		18B38E77265CF875008DB3DC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B38E76265CF86F008DB3DC /* UIViewController.swift */; };
+		18B38E83265CFE9C008DB3DC /* ListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B38E82265CFE9C008DB3DC /* ListLoader.swift */; };
 		18D5558D26500B540004BE64 /* realityserviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5558C26500B540004BE64 /* realityserviceVC.swift */; };
 		18D5559226500F800004BE64 /* RealtyCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559126500F7F0004BE64 /* RealtyCells.swift */; };
 		18D555A3265052BE0004BE64 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5559C265052BD0004BE64 /* CategoryCell.swift */; };
@@ -73,6 +75,8 @@
 		18FC55A62655298A0090A120 /* searchresulttablecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC55A4265529880090A120 /* searchresulttablecell.swift */; };
 		18FC55AF26552B1E0090A120 /* searchview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC55AE26552B1E0090A120 /* searchview.swift */; };
 		18FC55B526552BC30090A120 /* sebarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC55B326552BC30090A120 /* sebarCell.swift */; };
+		32DB8AF676785FB577A41465 /* Pods_propciergeRealityServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7CDF066B1D12DF523DCA5B /* Pods_propciergeRealityServices.framework */; };
+		F808302A43BE59284ABA8ED1 /* Pods_propciergeRealityServices_propciergeRealityServicesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4B05EB50F0E593AB59CFF4 /* Pods_propciergeRealityServices_propciergeRealityServicesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,8 +125,6 @@
 		18244AEA26514E65002D4ED4 /* landCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = landCell.xib; sourceTree = "<group>"; };
 		18244AF026516948002D4ED4 /* ShareButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButtonCell.swift; sourceTree = "<group>"; };
 		18244AF126516948002D4ED4 /* ShareButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareButtonCell.xib; sourceTree = "<group>"; };
-		18244AF726519946002D4ED4 /* searchCollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchCollCell.swift; sourceTree = "<group>"; };
-		18244AF826519947002D4ED4 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		18244AFE2651995C002D4ED4 /* propertyDescriptionPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = propertyDescriptionPageView.swift; sourceTree = "<group>"; };
 		18244AFF2651995C002D4ED4 /* PropertyDesPageTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyDesPageTableCell.swift; sourceTree = "<group>"; };
 		18244B002651995C002D4ED4 /* prophotosCollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prophotosCollCell.swift; sourceTree = "<group>"; };
@@ -132,6 +134,9 @@
 		187577FE265391E700EB2DD7 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
 		187578042653922700EB2DD7 /* propertiesnearmecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propertiesnearmecell.swift; sourceTree = "<group>"; };
 		187578052653922700EB2DD7 /* propertiesnearmecell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = propertiesnearmecell.xib; sourceTree = "<group>"; };
+		18950710265D38800076CB76 /* SF Pro Display */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF Pro Display"; sourceTree = "<group>"; };
+		18B38E76265CF86F008DB3DC /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		18B38E82265CFE9C008DB3DC /* ListLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListLoader.swift; sourceTree = "<group>"; };
 		18D5558C26500B540004BE64 /* realityserviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realityserviceVC.swift; sourceTree = "<group>"; };
 		18D5559126500F7F0004BE64 /* RealtyCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtyCells.swift; sourceTree = "<group>"; };
 		18D5559C265052BD0004BE64 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
@@ -165,6 +170,15 @@
 		18FC55A4265529880090A120 /* searchresulttablecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchresulttablecell.swift; sourceTree = "<group>"; };
 		18FC55AE26552B1E0090A120 /* searchview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchview.swift; sourceTree = "<group>"; };
 		18FC55B326552BC30090A120 /* sebarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sebarCell.swift; sourceTree = "<group>"; };
+		47DC1E0387CF3B57FDA25605 /* Pods-propciergeRealityServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-propciergeRealityServices.debug.xcconfig"; path = "Target Support Files/Pods-propciergeRealityServices/Pods-propciergeRealityServices.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4B05EB50F0E593AB59CFF4 /* Pods_propciergeRealityServices_propciergeRealityServicesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_propciergeRealityServices_propciergeRealityServicesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		534ADA19FDC1AB182A70F645 /* Pods-propciergeRealityServices-propciergeRealityServicesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-propciergeRealityServices-propciergeRealityServicesUITests.release.xcconfig"; path = "Target Support Files/Pods-propciergeRealityServices-propciergeRealityServicesUITests/Pods-propciergeRealityServices-propciergeRealityServicesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D7CDF066B1D12DF523DCA5B /* Pods_propciergeRealityServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_propciergeRealityServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F9B37214E1D6A1190D0744 /* Pods-propciergeRealityServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-propciergeRealityServices.release.xcconfig"; path = "Target Support Files/Pods-propciergeRealityServices/Pods-propciergeRealityServices.release.xcconfig"; sourceTree = "<group>"; };
+		95C5598E41EB2E789813C090 /* Pods-propciergeRealityServicesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-propciergeRealityServicesTests.release.xcconfig"; path = "Target Support Files/Pods-propciergeRealityServicesTests/Pods-propciergeRealityServicesTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8E5CAB7DAC7998ED5E8CC32 /* Pods-propciergeRealityServices-propciergeRealityServicesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-propciergeRealityServices-propciergeRealityServicesUITests.debug.xcconfig"; path = "Target Support Files/Pods-propciergeRealityServices-propciergeRealityServicesUITests/Pods-propciergeRealityServices-propciergeRealityServicesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3167C2F924D793BA46FA9A8 /* Pods_propciergeRealityServicesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_propciergeRealityServicesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC29CEBDFCA73E01F753ABFB /* Pods-propciergeRealityServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-propciergeRealityServicesTests.debug.xcconfig"; path = "Target Support Files/Pods-propciergeRealityServicesTests/Pods-propciergeRealityServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DB8AF676785FB577A41465 /* Pods_propciergeRealityServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091A94444DA4C0AA0A6FA122 /* Pods_propciergeRealityServicesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F808302A43BE59284ABA8ED1 /* Pods_propciergeRealityServices_propciergeRealityServicesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +216,8 @@
 				1803A04626498DE900C23899 /* propciergeRealityServicesTests */,
 				1803A05126498DEA00C23899 /* propciergeRealityServicesUITests */,
 				1803A02E26498DA000C23899 /* Products */,
+				D375873397DDB05A76AD5449 /* Pods */,
+				A9E48CE5C4D3D35A3BB730E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +234,8 @@
 		1803A02F26498DA000C23899 /* propciergeRealityServices */ = {
 			isa = PBXGroup;
 			children = (
+				18950710265D38800076CB76 /* SF Pro Display */,
+				18B38E76265CF86F008DB3DC /* UIViewController.swift */,
 				18FC55A0265528E40090A120 /* searchView */,
 				187577F5265390F200EB2DD7 /* others */,
 				1807F84F2652752E0064939B /* resale */,
@@ -223,6 +244,7 @@
 				18D5559B265052790004BE64 /* BuyResidentialCells */,
 				1803A03026498DA200C23899 /* AppDelegate.swift */,
 				1803A03226498DA200C23899 /* SceneDelegate.swift */,
+				18B38E82265CFE9C008DB3DC /* ListLoader.swift */,
 				1803A03426498DA300C23899 /* ViewController.swift */,
 				1803A03626498DA400C23899 /* Main.storyboard */,
 				1803A03926498DE700C23899 /* Assets.xcassets */,
@@ -230,8 +252,6 @@
 				1803A03E26498DE700C23899 /* Info.plist */,
 				18D5558C26500B540004BE64 /* realityserviceVC.swift */,
 				18D5559126500F7F0004BE64 /* RealtyCells.swift */,
-				18244AF726519946002D4ED4 /* searchCollCell.swift */,
-				18244AF826519947002D4ED4 /* SearchViewController.swift */,
 				18244AFE2651995C002D4ED4 /* propertyDescriptionPageView.swift */,
 				18244AFF2651995C002D4ED4 /* PropertyDesPageTableCell.swift */,
 				18244B002651995C002D4ED4 /* prophotosCollCell.swift */,
@@ -350,6 +370,29 @@
 			path = searchView;
 			sourceTree = "<group>";
 		};
+		A9E48CE5C4D3D35A3BB730E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CDF066B1D12DF523DCA5B /* Pods_propciergeRealityServices.framework */,
+				4D4B05EB50F0E593AB59CFF4 /* Pods_propciergeRealityServices_propciergeRealityServicesUITests.framework */,
+				B3167C2F924D793BA46FA9A8 /* Pods_propciergeRealityServicesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D375873397DDB05A76AD5449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47DC1E0387CF3B57FDA25605 /* Pods-propciergeRealityServices.debug.xcconfig */,
+				88F9B37214E1D6A1190D0744 /* Pods-propciergeRealityServices.release.xcconfig */,
+				A8E5CAB7DAC7998ED5E8CC32 /* Pods-propciergeRealityServices-propciergeRealityServicesUITests.debug.xcconfig */,
+				534ADA19FDC1AB182A70F645 /* Pods-propciergeRealityServices-propciergeRealityServicesUITests.release.xcconfig */,
+				DC29CEBDFCA73E01F753ABFB /* Pods-propciergeRealityServicesTests.debug.xcconfig */,
+				95C5598E41EB2E789813C090 /* Pods-propciergeRealityServicesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -357,9 +400,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1803A05726498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServices" */;
 			buildPhases = (
+				2DECFA80289DAEB0BBEDE3AA /* [CP] Check Pods Manifest.lock */,
 				1803A02926498DA000C23899 /* Sources */,
 				1803A02A26498DA000C23899 /* Frameworks */,
 				1803A02B26498DA000C23899 /* Resources */,
+				B19853C269B797164C171164 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -374,6 +419,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1803A05A26498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServicesTests" */;
 			buildPhases = (
+				FA9D61944C8DEFE003407DB0 /* [CP] Check Pods Manifest.lock */,
 				1803A03F26498DE900C23899 /* Sources */,
 				1803A04026498DE900C23899 /* Frameworks */,
 				1803A04126498DE900C23899 /* Resources */,
@@ -392,9 +438,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1803A05D26498DEA00C23899 /* Build configuration list for PBXNativeTarget "propciergeRealityServicesUITests" */;
 			buildPhases = (
+				8B99FF81EBC7F5EC128CD003 /* [CP] Check Pods Manifest.lock */,
 				1803A04A26498DEA00C23899 /* Sources */,
 				1803A04B26498DEA00C23899 /* Frameworks */,
 				1803A04C26498DEA00C23899 /* Resources */,
+				84D598B4FD3029D7C4039464 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -455,6 +503,7 @@
 			files = (
 				18D555E126506A8A0004BE64 /* BuiltupareaCell.xib in Resources */,
 				1803A03D26498DE700C23899 /* LaunchScreen.storyboard in Resources */,
+				18950711265D38830076CB76 /* SF Pro Display in Resources */,
 				18D555EF265079D30004BE64 /* BuyResAdvancebtncell.xib in Resources */,
 				18D555E426506A8A0004BE64 /* commercialpropertytypeCell.xib in Resources */,
 				1803A03A26498DE700C23899 /* Assets.xcassets in Resources */,
@@ -499,6 +548,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DECFA80289DAEB0BBEDE3AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-propciergeRealityServices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84D598B4FD3029D7C4039464 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-propciergeRealityServices-propciergeRealityServicesUITests/Pods-propciergeRealityServices-propciergeRealityServicesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-propciergeRealityServices-propciergeRealityServicesUITests/Pods-propciergeRealityServices-propciergeRealityServicesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-propciergeRealityServices-propciergeRealityServicesUITests/Pods-propciergeRealityServices-propciergeRealityServicesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B99FF81EBC7F5EC128CD003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-propciergeRealityServices-propciergeRealityServicesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19853C269B797164C171164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-propciergeRealityServices/Pods-propciergeRealityServices-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-propciergeRealityServices/Pods-propciergeRealityServices-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-propciergeRealityServices/Pods-propciergeRealityServices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9D61944C8DEFE003407DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-propciergeRealityServicesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1803A02926498DA000C23899 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -509,6 +661,7 @@
 				1807F852265275C90064939B /* resalepropertystatus.swift in Sources */,
 				18244AE326513379002D4ED4 /* BuyComadvanceBtnCell.swift in Sources */,
 				18244AEB26514E65002D4ED4 /* landCell.swift in Sources */,
+				18B38E83265CFE9C008DB3DC /* ListLoader.swift in Sources */,
 				18D555E326506A8A0004BE64 /* commercialpropertytypeCell.swift in Sources */,
 				18D555A8265052BF0004BE64 /* AdvancedFilterCell.swift in Sources */,
 				18D555E526506A8A0004BE64 /* commercialAdvancedFilters.swift in Sources */,
@@ -524,8 +677,7 @@
 				1803A03126498DA200C23899 /* AppDelegate.swift in Sources */,
 				1807F86026529A6E0064939B /* resaleadvbtn.swift in Sources */,
 				18D555A7265052BF0004BE64 /* bhkCell.swift in Sources */,
-				18244AFA26519947002D4ED4 /* SearchViewController.swift in Sources */,
-				18244AF926519947002D4ED4 /* searchCollCell.swift in Sources */,
+				18B38E77265CF875008DB3DC /* UIViewController.swift in Sources */,
 				18244B012651995D002D4ED4 /* propertyDescriptionPageView.swift in Sources */,
 				1803A03326498DA200C23899 /* SceneDelegate.swift in Sources */,
 				1812F7A02658285A00D12C40 /* propertiesnearyoutitle.swift in Sources */,
@@ -713,6 +865,7 @@
 		};
 		1803A05826498DEA00C23899 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DC1E0387CF3B57FDA25605 /* Pods-propciergeRealityServices.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -732,6 +885,7 @@
 		};
 		1803A05926498DEA00C23899 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F9B37214E1D6A1190D0744 /* Pods-propciergeRealityServices.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -751,6 +905,7 @@
 		};
 		1803A05B26498DEA00C23899 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC29CEBDFCA73E01F753ABFB /* Pods-propciergeRealityServicesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -772,6 +927,7 @@
 		};
 		1803A05C26498DEA00C23899 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C5598E41EB2E789813C090 /* Pods-propciergeRealityServicesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -793,6 +949,7 @@
 		};
 		1803A05E26498DEA00C23899 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E5CAB7DAC7998ED5E8CC32 /* Pods-propciergeRealityServices-propciergeRealityServicesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -812,6 +969,7 @@
 		};
 		1803A05F26498DEA00C23899 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534ADA19FDC1AB182A70F645 /* Pods-propciergeRealityServices-propciergeRealityServicesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

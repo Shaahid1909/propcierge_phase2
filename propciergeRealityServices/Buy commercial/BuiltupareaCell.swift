@@ -18,9 +18,11 @@ class BuiltupareaCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
 
     weak var pickerView: UIPickerView?
     
-    let minbuild = Array(0...1000).map { $0 }
-    let maxbuild = Array(1100...10000).map { $0 }
-
+//    let minbuild = Array(0...1000).map { $0 }
+//    let maxbuild = Array(1100...10000).map { $0 }
+    let minbuild = [0,200,400,800,1000]
+    let maxbuild = [1100,1300,1500,1700,1900]
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -34,6 +36,8 @@ class BuiltupareaCell: UITableViewCell,UIPickerViewDataSource, UIPickerViewDeleg
         
         minbuildarea.setUpImage(imageName: "down_arrow", on: .right)
         maxbuildarea.setUpImage(imageName: "down_arrow", on: .right)
+        
+        
         
         var pickerView = UIPickerView()
         pickerView.delegate = self

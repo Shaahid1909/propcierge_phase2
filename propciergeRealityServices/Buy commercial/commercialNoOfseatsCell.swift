@@ -18,8 +18,8 @@ class commercialNoOfseatsCell: UITableViewCell,UIPickerViewDataSource, UIPickerV
 
     weak var pickerView: UIPickerView?
     
-    let min = Array(0...800).map { $0 }
-    let max = Array(0...800).map { $0 }
+    let min = [0,100,200,300,400,500]
+    let max = [500,600,700,800,900,1000]
 
     
     

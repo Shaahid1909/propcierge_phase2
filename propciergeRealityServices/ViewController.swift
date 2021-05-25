@@ -17,14 +17,15 @@ class ViewController: UIViewController {
     
     @IBAction func realtyServices(_ sender:UIButton){
         performSegue(withIdentifier: "RealtyServices", sender: nil)
+     //   self.showSpinner(onView: self.view)
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let backItem = UIBarButtonItem()
-        backItem.title = "Reality Services"
-        backItem.tintColor = #colorLiteral(red: 0.1018147841, green: 0.6851620674, blue: 0.9096405506, alpha: 1)
-        navigationItem.backBarButtonItem = backItem
-    }
+//
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let backItem = UIBarButtonItem()
+//        backItem.title = "Reality Services"
+//        backItem.tintColor = #colorLiteral(red: 0.1018147841, green: 0.6851620674, blue: 0.9096405506, alpha: 1)
+//        navigationItem.backBarButtonItem = backItem
+//    }
 
 
 }

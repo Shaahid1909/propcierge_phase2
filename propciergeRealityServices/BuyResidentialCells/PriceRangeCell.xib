@@ -31,7 +31,7 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Price Range">
                                                 <attributes>
-                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="NSColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <font key="NSFont" size="20" name="SFProDisplay-Semibold"/>
                                                 </attributes>
                                             </fragment>

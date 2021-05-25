@@ -17,8 +17,8 @@ class CommercialPriceRangeCell: UITableViewCell,UIPickerViewDataSource, UIPicker
 
     weak var pickerView: UIPickerView?
     
-    let min = Array(0...100).map { $0 }
-    let max = Array(0...100).map { $0 }
+    let min = [500000,600000,700000,800000,1000000]
+    let max = [1200000,1400000,1600000,1800000,2000000]
     
     
     

@@ -180,7 +180,7 @@ class PropertyCollectionCell: UICollectionViewCell { //Section - 1 Collection Ce
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        statview.layer.cornerRadius = 8
+        statview.layer.cornerRadius = 4
         banner.layer.cornerRadius = 12
         selectedBackgroundView?.isHidden = true
     }
@@ -204,7 +204,7 @@ class PropertyTableCell: UITableViewCell { //Section - 2 Table Cell
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        propstatview.layer.cornerRadius = 8
+        propstatview.layer.cornerRadius = 4
         banner.layer.cornerRadius = 12
         selectedBackgroundView?.isHidden = true
    

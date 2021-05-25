@@ -18,20 +18,20 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="rAT-aD-O5V">
-                        <rect key="frame" x="10" y="5" width="394" height="75.5"/>
+                        <rect key="frame" x="10" y="5" width="394" height="77.5"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hwe-go-vMe">
-                                <rect key="frame" x="0.0" y="0.0" width="131" height="19.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="131" height="21.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iem-b3-t4B">
-                                        <rect key="frame" x="0.0" y="0.0" width="131" height="19.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="131" height="21.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="131" id="n2S-XF-rWT"/>
                                         </constraints>
                                         <attributedString key="attributedText">
                                             <fragment content="No.of Seats">
                                                 <attributes>
-                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="NSColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <font key="NSFont" size="20" name="SFProDisplay-Semibold"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
@@ -40,9 +40,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21.5" id="UWA-2z-tVh"/>
+                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="q0N-56-5zI">
-                                <rect key="frame" x="0.0" y="33.5" width="376" height="42"/>
+                                <rect key="frame" x="0.0" y="35.5" width="376" height="42"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hru-F0-m2H">
                                         <rect key="frame" x="0.0" y="0.0" width="185" height="42"/>
@@ -50,7 +53,7 @@
                                             <constraint firstAttribute="height" constant="42" id="7TP-AG-GxT"/>
                                             <constraint firstAttribute="width" constant="185" id="yaJ-9G-5Af"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="800" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJH-WJ-gor">
@@ -59,7 +62,7 @@
                                             <constraint firstAttribute="height" constant="42" id="PtA-xh-1os"/>
                                             <constraint firstAttribute="width" constant="185" id="d8t-hF-fnF"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
