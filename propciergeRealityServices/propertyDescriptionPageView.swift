@@ -23,7 +23,7 @@ class propertyDescriptionPageView: UIViewController,UITableViewDelegate,UITableV
     override func viewDidLoad() {
         super.viewDidLoad()
         descriptorpage()
-        
+        tabview.layer.cornerRadius = 10.0
         tabview.delegate = self
         tabview.dataSource = self
       

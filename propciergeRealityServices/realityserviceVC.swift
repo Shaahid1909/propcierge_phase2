@@ -44,11 +44,12 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
     @IBOutlet weak var tabView: UITableView!
     
     
-    
+ 
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       tabView.layer.cornerRadius = 10.0
+     
         tabView.tableFooterView = UIView()
         tabView.delegate = self
         tabView.dataSource = self
@@ -58,8 +59,14 @@ class realityserviceVC: UIViewController,RealtyServicesDelegate,UICollectionView
         self.showSpinner(onView: self.view)
               
               Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(realityserviceVC.removeLoader), userInfo: nil, repeats: false)
-                
-       
+ 
+        if selected_index == 0{
+            propbarbutton.isEnabled = true
+            propbarbutton.tintColor = #colorLiteral(red: 0.2094888944, green: 0.6731480454, blue: 1, alpha: 1)
+            propbarbutton.customView?.isHidden = false
+            tabView.reloadData()
+            
+        }
       
       //  downloadItems()
  //-->Buy residential nib
